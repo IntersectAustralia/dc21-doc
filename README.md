@@ -13,7 +13,7 @@ Please feel free to browse any of the following documentation.
 ### For deployers:
 * [Deployment Guide](Deployment_Guide.md) - instructions on how to install the web application and do subsequent updates.
 * [Setting Up Automated Load From PC](Setting_Up_Automated_Load_From_PC.md) - how to automatically send files to DC21 from a PC
-* [Loading external template files](Loading_external_template_files.md) - how to tell the web application to read an external template file for README.html without redeploying
+* [Loading external template files](Loading_External_Template_Files.md) - how to tell the web application to read an external template file for README.html without redeploying
 
 ###  For developers:
 * [Developers Guide](Developers_Guide.md) - useful information for future developers of the application.
