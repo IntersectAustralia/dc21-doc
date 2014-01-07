@@ -28,6 +28,6 @@ Please feel free to browse any of the following documentation.
 
 ### Version Documentation:
 The version documentation contains the release notes and the user manual.
-* Download Version 1.9.04 here : [DC21v1.9.04DocFiles.zip](files/HIEv_v1.9.04DocFiles.zip)
-* Download Version 1.8.02 here : [DC21v1.8.02DocFiles.zip](files/HIEvv1.8.02DocFiles.zip)
-* Download Version 1.6b.03 here : [DC21v1.6b.03DocFiles.zip](files/DC21v1.6b.03DocFiles.zip)
+* Download Version 1.9.04 here : [DC21v1.9.04DocFiles.zip](files/HIEv_v1.9.04DocFiles.zip?raw=true)
+* Download Version 1.8.02 here : [DC21v1.8.02DocFiles.zip](files/HIEvv1.8.02DocFiles.zip?raw=true)
+* Download Version 1.6b.03 here : [DC21v1.6b.03DocFiles.zip](files/DC21v1.6b.03DocFiles.zip?raw=true)
