@@ -64,7 +64,7 @@ username@devmachine $ sudo /sbin/chkconfig postgresql on
 ```
 ### Postgres (Mac)
 
-We recommend using [Homebrew](http://mxcl.github.com/homebrew/) 
+We recommend using [Homebrew](https://github.com/Homebrew/homebrew) 
 ```
 brew install postgresql
 # then follow the instructions it provides
