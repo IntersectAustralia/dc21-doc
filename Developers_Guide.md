@@ -7,7 +7,7 @@ See [Development Environment Setup](Development_Environment_Setup.md)
 * Ruby on Rails application (the application has been tested on Apache with Passenger (mod_rails) running on Linux (CentOS), but can be run on your preferred deployment stack).
 * Postgresql database (other databases can be supported).
 * File system (for storage of uploaded data files)
-* Access to an instance of [The Mint](https://sites.google.com/site/redboxmint/) for retrieval for FOR (field of research) codes. This can easily be replaced with an alternate lookup mechanism if desired.
+* Access to an instance of [The Mint](http://www.redboxresearchdata.com.au/) for retrieval for FOR (field of research) codes. This can easily be replaced with an alternate lookup mechanism if desired.
 * jOAI - the open source Java OAI provider for exposing the RIF-CS records over OAI-PMH
 
 # Navigating The Code
