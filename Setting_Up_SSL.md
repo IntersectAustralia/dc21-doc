@@ -1,11 +1,11 @@
 ## Assumptions
-The 
-[Deployment Guide : First Time Server Build](https://github.com/IntersectAustralia/dc21/wiki/Deployment-Guide-:-First-Time-Server-Build) instructions have been successfully followed. This means you will have a _deploy_ machine and a _server_ machine successfully built.
+The
+[Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_Server_Build.md) instructions have been successfully followed. This means you will have a _deploy_ machine and a _server_ machine successfully built.
 
 You should know which is your _deploy_ machine, and which is your _server_ machine, and will need the password for the "dc21" unix user that was created during the first time server build.
 
 ## Obtain a certificate
-You will need to obtain a valid SSL certificate for your server from a commercial certificate provider. 
+You will need to obtain a valid SSL certificate for your server from a commercial certificate provider.
 
 For testing purposes, you can generate a self signed certificate, however this will generate warnings in the browser. To generate a self-signed certificate follow steps 1-4 of these instructions: http://www.akadia.com/services/ssh_test_certificate.html
 
@@ -14,7 +14,7 @@ SSH into your _server_ machine as root, and move the certificate files to the ap
 
 
 ## Configure Apache
-Still on your _server_ machine, edit the Apache configuration file for the rails application (e.g. `/etc/httpd/conf.d/rails_dc21app.conf`) 
+Still on your _server_ machine, edit the Apache configuration file for the rails application (e.g. `/etc/httpd/conf.d/rails_dc21app.conf`)
 The following is a template for a typical configuration. Please substitute:
 
 * `#server url#` for your server's url.
@@ -117,11 +117,11 @@ PassengerTempDir /home/devel/dc21app/current/tmp/pids
 ```
 
 ## Restart Apache & Test
-Still on your _server_ machine, restart the apache service after performing these changes. 
+Still on your _server_ machine, restart the apache service after performing these changes.
 ```
 root@server $ service httpd restart
 ```
 You can then test that you can visit the site at https, and that visiting http redirects to https.
 
 ## Next Steps
-You can now proceed to run through the [[Smoke Tests]].
+You can now proceed to run through the [Smoke Tests](Smoke_tests.md).

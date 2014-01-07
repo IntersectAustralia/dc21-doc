@@ -27,18 +27,18 @@ The _server_ machine is the production server where the web application will run
 As you proceed through the instructions you will create and set passwords for a number of accounts (both Linux and Postgres). Make sure you keep track the users you have created and their passwords.
 
 ## First Time Build
-You should read the [release notes](https://github.com/IntersectAustralia/dc21/wiki#version-documentation) before installing.
-* [[Deployment Guide : First Time Server Build]] - instructions for building a new instance of the DC21 web application.
-* [[Setting Up OAI]] - following on from above, instructions for setting up the jOAI component to provide the OAI-PMH feed of published collections.
-* [[Setting Up SSL]] - instructions for configuring your instance to run over https - optional but recommended.
-* [[Setting up Redis and Resque]] - instructions for setting up and configuring the background workers.
+You should read the [release notes](README.md#version-documentation) before installing.
+* [Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_Server_Build.md) - instructions for building a new instance of the DC21 web application.
+* [Setting Up OAI](Setting_Up_OAI.md) - following on from above, instructions for setting up the jOAI component to provide the OAI-PMH feed of published collections.
+* [Setting Up SSL](Setting_Up_SSL.md) - instructions for configuring your instance to run over https - optional but recommended.
+* [Setting up Redis and Resque](Setting_up_redis_and_resque.md) - instructions for setting up and configuring the background workers.
 
 ## Updating
-You should read the [release notes](https://github.com/IntersectAustralia/dc21/wiki#version-documentation) before installing.
-* [[Deployment Guide : Deploying A New Version]] - instructions for updating an installed instance with a new version of the web application.
+You should read the [release notes](README.md#version-documentation) before installing.
+* [Deployment Guide : Deploying A New Version](Deployment_Guide_-_Deploying_A_New_Version.md) - instructions for updating an installed instance with a new version of the web application.
 
 ## Smoke Tests
-* [[Smoke Tests]] - a minimum set of test that we recommend be run after installation and/or updates to check that all parts of the infrastructure are functioning correctly.
+* [Smoke Tests](Smoke_tests.md) - a minimum set of test that we recommend be run after installation and/or updates to check that all parts of the infrastructure are functioning correctly.
 
 ## Miscellaneous
-* [[Deploying To Multiple Environments]] - some tips on how Capistrano supports running multiple environments (e.g. test and production).
+* [Deploying To Multiple Environments](Deploying_to_multiple_environments.md) - some tips on how Capistrano supports running multiple environments (e.g. test and production).

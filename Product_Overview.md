@@ -43,4 +43,4 @@ technical officers who manage the equipment and researchers who use the data.
 - be flexible enough to handle changes such as new sensors being added.
 
 ## Overview Diagram
-![Overview Diagram](https://github.com/IntersectAustralia/dc21/raw/master/doc/overview-diagram.png)
+![Overview Diagram](files/overview-diagram.png)

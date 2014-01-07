@@ -143,7 +143,7 @@ user@deploy $ git checkout <tag you wish to deploy>
 ### Install and use RVM
 Again if you're having problems with this, visit: https://rvm.io/rvm/install/ for the latest.
 
-``` 
+```
 user@deploy $ curl -L http://get.rvm.io | bash -s stable --ruby=1.9.2-p290
 user@deploy $ source ~/.rvm/scripts/rvm
 ```
@@ -198,7 +198,7 @@ set :db_server, 'hostname.com'
 # The user configured to run the rails app
 set :user, 'dc21'
 # If you are using RHEL/CentOS 6 or later, set this to true
-set :el6, true  
+set :el6, true
 # If you have a proxy server, enter the address here including "inverted commas", eg:
 #set :proxy, "http://user:pass@proxy.example.com:8080" # with a user/password
 #set :proxy, "http://proxy.example.com:8080" # without a user/pass
@@ -229,7 +229,7 @@ user@deploy $ cap production deploy:schema_load
 ## Customise the application
 You will now configure some local settings on your _server_ machine. After deploying the server for the first time, a file was created at `/data/dc21app_extra_config.yml` on the _server_ machine. This is where you configure settings specific to your installation.
 
-Log in to your _server_ machine and edit the file `/data/dc21app_extra_config.yml` 
+Log in to your _server_ machine and edit the file `/data/dc21app_extra_config.yml`
 ```
 dc21@server $ vi /data/dc21app_extra_config.yml
 ```
@@ -265,18 +265,17 @@ root@server $ service httpd start
 
 ## Configure the background workers
 > Only applies for HIEv v1.9.01 or greater
-
-Refer to [[Setting-up-redis-and-resque]]
+Refer to [Setting up Redis and Resque](Setting_up_redis_and_resque.md)
 
 ## Configure the OAI-PMH Provider
-Refer to [[Setting Up OAI]]
+Refer to [Setting Up OAI](Setting_Up_OAI.md)
 
 ## Optionally, set up SSL
-Refer to [[Setting Up SSL]] 
+Refer to [Setting Up SSL](Setting_Up_SSL.md)
 
 ## Check that things work
 Check that you can successfully visit the site at the hostname or IP you configured.
- 
+
 If you have problems you can check both the Apache logs and also web application logs in the logs directory under the dc21app directory (e.g. under /home/dc21/dc21app/shared/log).
 
-You can now proceed to run through the [[Smoke Tests]]
+You can now proceed to run through the [Smoke Tests](Smoke_tests.md)

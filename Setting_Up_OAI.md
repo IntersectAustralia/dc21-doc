@@ -1,6 +1,6 @@
 ## Assumptions
-The 
-[Deployment Guide : First Time Server Build](https://github.com/IntersectAustralia/dc21/wiki/Deployment-Guide-:-First-Time-Server-Build) instructions have been successfully followed. This means you will have a _deploy_ machine and a _server_ machine successfully built.
+The
+[Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_Server_Build.md) instructions have been successfully followed. This means you will have a _deploy_ machine and a _server_ machine successfully built.
 
 You should know which is your _deploy_ machine, and which is your _server_ machine, and will need the password for the "dc21" unix user that was created during the first time server build.
 
@@ -31,10 +31,10 @@ root@server $ service httpd restart
 ## Configure RIF-CS Harvest
 1. Visit "http://server_url/oai"
 2. Go to "Data Provider -> Repository Information and Administration". Log in with the user "oai_admin" and the password you set in previous step. Update the repository information:
-![jOAI Setup 1](https://github.com/IntersectAustralia/dc21/raw/master/doc/joai%20setup%201.png)
+![jOAI Setup 1](files/joai%20setup%201.png)
 3. You can find the dc21 metadata configuration under "Data Provider -> Metadata Files Configuration". Please confirm that it looks correct and reindex it, by clicking the "Reindex" button under the Action column.
 
 Any other optional settings you may be interested in is documented in detail here: http://www.ands.org.au/resource/joai/joai.html
 
 ## Next Steps
-Optionally, set up SSL - refer to [[Setting Up SSL]], otherwise you can now proceed to run through the [[Smoke Tests]].
+Optionally, set up SSL - refer to [Setting Up SSL](Setting_Up_SSL.md), otherwise you can now proceed to run through the [Smoke Tests](Smoke_tests.md).

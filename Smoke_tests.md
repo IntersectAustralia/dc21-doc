@@ -1,4 +1,4 @@
-Below is a set of tests that exercises each part of the DC21 infrastructure. This should be run after a release to ensure that all parts of the system are running correctly. 
+Below is a set of tests that exercises each part of the DC21 infrastructure. This should be run after a release to ensure that all parts of the system are running correctly.
 
 This is the minimum set of tests needed. After any release you may want to run some additional tests to exercise new/modified functionality.
 
@@ -55,7 +55,7 @@ Note: you may wish to delete the file afterwards.
 <tr>
 <td>DC21-Smoke 4</td>
 <td>Assure files can be uploaded through the API.</td>
-<td>1. PC upload scripts are successfully installed as per [PC Upload Setup](https://github.com/IntersectAustralia/dc21/wiki/Setting-Up-Automated-Load-From-PC)<br>
+<td>1. PC upload scripts are successfully installed as per [PC Upload Setup](Setting_Up_Automated_Load_From_PC.md)<br>
 2. User has generated an authentication token.<br>
 3. A valid config file has been generated for the PC upload scripts, and is configured to upload a suitable sample file for testing.
 </td>

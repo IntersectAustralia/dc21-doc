@@ -1,5 +1,5 @@
 ## Search
-Search can be performed via the API. Construct a post request with the required search criteria parameters, as per the details below. 
+Search can be performed via the API. Construct a post request with the required search criteria parameters, as per the details below.
 
 Authentication is done by include your API token into post parameters. API tokens can only be used for API actions. You can obtain an API token by clicking on your email address, the "Settings" at the top right of the DC21 application.
 
@@ -67,7 +67,7 @@ The result is reported back via a combination of the HTTP response code, and a J
 
 
 ### Example
-We highly recommend the [rest client](https://github.com/archiloque/rest-client) gem if calling the API from Ruby. The below example uses rest client to send the request.
+We highly recommend the [rest-client](https://github.com/rest-client/rest-client) gem if calling the API from Ruby. The below example uses rest client to send the request.
 
 ```ruby
 #!/usr/bin/env ruby
