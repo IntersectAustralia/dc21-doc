@@ -16,6 +16,8 @@ defined in DC21
   * **description** - a description of the file
   * **tag_names** - a quoted, comma separated list of tags to apply to the file, must be from the set of legal tag names 
 
+
+
 ### Response
 The result is reported back via a combination of the HTTP response code, and a JSON body.
 <table>
@@ -52,11 +54,13 @@ The result is reported back via a combination of the HTTP response code, and a J
   supplied instead of a file part)</td>
   <td>400</td>
   <td>json hash e.g.<br>
-```
+<div class="hightlight">
+<pre>
   {
     "messages":[array_of_messages]
   }
-```
+</pre>
+</div>
   </td>
  </tr>
  <tr>
@@ -74,14 +78,16 @@ The result is reported back via a combination of the HTTP response code, and a J
   </td>
   <td>200</td>
   <td>json hash e.g.<br>
-```
-  {
-    "file_id":the_file_id,
-    "messages":[array_of_messages],
-    "file_name":"resulting_file_name",
-    "file_type":"resulting_type"
-  }
-```
+<div class="highlight">
+<pre>
+{
+ "file_id":the_file_id, 
+ "messages":[array_of_messages], 
+ "file_name":"resulting_file_name", 
+ "file_type":"resulting_type"
+}
+</pre>
+</div>
 </td>
  </tr>
 </table>
