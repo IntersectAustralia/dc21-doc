@@ -1,6 +1,6 @@
 The DC21 application is a Ruby on Rails application built by [Intersect Australia](http://www.intersect.org.au/) for the [Hawkesbury Institute for the Environment]( http://www.uws.edu.au/hie/hie) as part of an [ANDS-Funded Data Capture Project - DC21 - Climate Change and Energy Research Facilities](http://projects.ands.org.au/id/DC21)
 
-There's an additional Github repository at https://github.com/IntersectAustralia/restful-api-uploader/ which provides at set of scripts that can be run on a PC to automatically load files from that PC into DC21.
+There's an additional Github repository at https://github.com/IntersectAustralia/restful-api-uploader/tree/1.9.04 which provides at set of scripts that can be run on a PC to automatically load files from that PC into DC21.
 
 Please feel free to browse any of the following documentation.
 ### For everyone:
