@@ -8,14 +8,15 @@ Authentication is done by adding your API token to the URL. API tokens can only 
 * Verb: POST
 * URL: https://\<base_url_for_your_server\>/data_files/api_create.json?auth_token=\<your_personal_api_token\>
 * Mandatory POST parameters:
-  * **experiment_id** - the numeric ID of the experiment this file belongs to - you can find the numeric ID on the 'view experiment page'
+  * **experiment_id** (or **org_level2_id**) - the numeric ID of the experiment this file belongs to - you can find the numeric ID on the 'view experiment page'
   * **type** - the type of file, one of UNKNOWN, RAW, CLEANSED, PROCESSED
 defined in DC21
   * **file** - the actual file
 * Optional POST parameters:
   * **description** - a description of the file
   * **tag_names** - a quoted, comma separated list of tags to apply to the file, must be from the set of legal tag names 
-
+  * **parent_file_names** - a quoted, comma separated list of parent file names of the file
+  * **label_names** - a quoted, comma separated list of labels to apply to the file
 
 
 ### Response
