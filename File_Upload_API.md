@@ -15,7 +15,7 @@ defined in DC21
 * Optional POST parameters:
   * **description** - a description of the file
   * **tag_names** - a quoted, comma separated list of tags to apply to the file, must be from the set of legal tag names 
-  * **parent_file_names** - a quoted, comma separated list of parent file names of the file
+  * **parent_filenames** - an array of parent file names, which must exist on the server prior to upload
   * **label_names** - a quoted, comma separated list of labels to apply to the file
 
 
