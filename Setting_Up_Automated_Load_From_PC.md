@@ -37,10 +37,12 @@ transfer_config.yml -------------------------------------------
 * **files**: this section needs to contain one stanza per file you wish to upload
   * **path**: absolute path of the file
   * **type**: (required) e.g. RAW, PROCESSED (must be one of the recognised types)
-  * **experiment_id**: (required) numeric id of the experiment, you can obtain this from the experiment details page of DC21
+  * **org_level2_id**: (required) numeric id of the organisation level 2 entry (previously called 'experiment' in version 1.9.04 and before), you can obtain this from the level 2 entry details page of DC21
   * **description**: (optional) description of the file
   * **tags**: (optional) tags to be applied, must be from the legal set of tags, and must be comma separated and placed in single quotes - e.g. 'Photo,Video'
   * **backup**: (optional) absolute path of *existing* Backup folder.
+  * **parent_filenames**: (optional) parent files for the file must exist on the server prior to upload, and must be an array of file names
+  * **label_names**: (optional) labels to be applied, which must be comma separated and placed in single quotes
 
 wrapper_config.yml -------------------------------------------
 * **files**: this section needs to contain one stanza per file you wish to upload (these should be the same files as specified in transfer_config.yml)
