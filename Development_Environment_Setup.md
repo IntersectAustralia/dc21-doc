@@ -33,9 +33,9 @@ username@devmachine $ curl -O http://www6.atomicorp.com/channels/atomic/centos/6
 username@devmachine $ sudo  rpm -Uvh atomic-release-1.0-14.el6.art.noarch.rpm
 username@devmachine $ sudo yum install libyaml-devel
 ```
-Install Ruby 1.9.2
+Install Ruby 1.9.3
 ```
-username@devmachine $ rvm install 1.9.2-p290
+username@devmachine $ rvm install 1.9.3-p448
 ```
 ### Postgres (CentOS)
 ```
@@ -74,6 +74,29 @@ Alternatively, remove the version that comes with Mac OS X use [Postgres.app](ht
 ```
 which psql
 rm /usr/bin/psql
+```
+
+### Tesseract
+Install Tesseract on a Mac using [Homebrew](https://github.com/Homebrew/homebrew):
+```
+brew install tesseract
+```
+
+On Ubuntu and CentOS, install by:
+```
+sudo yum -y install libjpeg-devel libpng-devel libtiff-devel zlib-devel
+sudo yum -y install gcc gcc-c++ make
+wget http://www.leptonica.com/source/leptonica-1.69.tar.gz
+wget http://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.02.tar.gz
+wget http://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.eng.tar.gz
+tar zxvf leptonica-1.69.tar.gz
+tar zxvf tesseract-ocr-3.02.02.tar.gz
+tar zxvf tesseract-ocr-3.02.eng.tar.gz
+
+cd $HOME/code_base/leptonica-1.69 && ./configure && make && sudo make install
+
+cd $HOME/code_base/tesseract-ocr/ && ./autogen.sh && ./configure && make && sudo make install && sudo mv $HOME/code_base/tesseract-ocr/tessdata/eng.* /usr/local/share/tessdata/
+sudo ldconfig
 ```
 
 ## DC21 Project
