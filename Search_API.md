@@ -1,7 +1,7 @@
 ## Search
 Search can be performed via the API. Construct a post request with the required search criteria parameters, as per the details below.
 
-Authentication is done by include your API token into post parameters. API tokens can only be used for API actions. You can obtain an API token by clicking on your email address, the "Settings" at the top right of the DC21 application.
+Authentication is done by including your API token into post parameters. API tokens can only be used for API actions. You can obtain an API token by clicking on your email address, the "Settings" at the top right of the DC21 application.
 
 ### Request
 
@@ -17,16 +17,20 @@ Authentication is done by include your API token into post parameters. API token
   * **file_id** - This is "File ID" in search box of WEB UI: `"file_id"=>"test"`
   * **id** - This is "ID" in search box of WEB UI: `"id"=>"26"`
   * **stati** - This is "Type" in search box of WEB UI: `"stati"=>["RAW", "CLEANSED"]`
+  * **automation_stati** - This is "Automation Status" in search box of WEB UI, `"automation_stati"=>["COMPLETE", "WORKING"]`
+  * **file_formats** - This is "File Formats" in search box of WEB UI, `"file_formats"=>["TOA5", "Unknown", "audio/mpeg"]`
   * **published** - This is "Type->PACKAGE->Published" in search box of WEB UI: `"stati"=>["PACKAGE"], "published"=>["true"]`.
   * **unpublished** - This is "Type->PACKAGE->Published" in search box of WEB UI: `"stati"=>["PACKAGE"],  "unpublished"=>["true"]`.
   * **published_date** - This is "Type->PACKAGE->Published Date" in search box of WEB UI: `"stati"=>["PACKAGE"], "published_date"=>"2013-01-01"`
   * **tags** - This is "Tags" in search box of WEB UI: `"tags"=>["4", "5"]`
+  * **labels** - This is "Labels" in search box of WEB UI, `"labels"=>["label_name_1", "label_name_2"]`
   * **facilities** - This is "Facility" in search box of WEB UI, ask system administrator to get facility ids : `"facilities"=>["27"]`
   * **experiments** - This is "Facility" in search box of WEB UI, when one facility is clicked, experiments of this facility are selectable, ask system administrator to get experiment ids: `"experiments"=>["58", "54"]`
   * **variables** - This is "Columns" in search box of WEB UI, when one group is clicked, columns of this group are selectable: `"variables"=>["SoilTempProbe_Avg(1)", "SoilTempProbe_Avg(3)"]`
   * **uploader_id** - This is "Added By" in search box of WEB UI, ask system administrator to get uploader ids: `"uploader_id"=>"83"`
   * **upload_from_date** - This is "Date Added->From Date" in search box of WEB UI, `"upload_from_date"=>"2013-01-01"`
   * **upload_to_date** - This is "Date Added->To Date" in search box of WEB UI, `"upload_to_date"=>"2013-01-02"`
+
 
 #### Regular expressions for Filename, Description and ID
 
