@@ -37,7 +37,7 @@ transfer_config.yml -------------------------------------------
 * **files**: this section needs to contain one stanza per file you wish to upload
   * **path**: absolute path of the file
   * **type**: (required) e.g. RAW, PROCESSED (must be one of the recognised types)
-  * **org_level2_id**: (required) numeric id of the organisational level 2 entry (previously called 'experiment' in version 1.9.04 and before), you can obtain this from the level 2 entry details page of DC21
+  * **experiment_id** (or **org_level2_id**): (required) numeric id of the experiment (or organisational level 2 entry), you can obtain this from the experiment (organisational level 2 entry) details page of DC21
   * **description**: (optional) description of the file
   * **tags**: (optional) tags to be applied, must be from the legal set of tags, and must be comma separated and placed in single quotes - e.g. 'Photo,Video'
   * **backup**: (optional) absolute path of *existing* Backup folder.
