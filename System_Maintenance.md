@@ -1,3 +1,5 @@
+# System Maintenance
+
 ### OS patching
 
 Please follow your institution's best practices regarding the patching of your operating system.
@@ -14,10 +16,10 @@ The following directories should be backed up:
 ### Rails Security Advisories
 The best way to keep informed about Rails Secury Advisories is to subscribe to the Ruby on Rails security group: http://groups.google.com/group/rubyonrails-security
 
-For each security vulnerability there will be a minor version release that fixes the problem. Is is up to the system administrator to evaluate the security vulnerability, and how critical it is to perform an upgrade. 
+For each security vulnerability there will be a minor version release that fixes the problem. Is is up to the system administrator to evaluate the security vulnerability, and how critical it is to perform an upgrade.
 
 In case an upgrade is deemed necessary, please update the version of rails in the Gemfile and run a bundle install. Then run all cucumber and rspec tests, and make sure they pass. Run the server locally, and make sure the user interface and basic functionality works as expected
- 
+
 ### Errors
 You can monitor the application logs for errors. This can be achieved through manual crontab scripts that analyse the logs, or through SAAS tools like https://airbrake.io/pages/home
 
@@ -38,6 +40,6 @@ Another alternative, again, is using a SAAS tool, like http://newrelic.com/ that
 The principal paths to monitor for disk usage are the volumes where the following paths are mounted:
 
 * The files roots, which are defined in the config/dc21app_config.yml file.
-* Apache log files directory. 
+* Apache log files directory.
 * Postgress database directories
 * Application user home directory

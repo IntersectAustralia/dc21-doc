@@ -17,7 +17,6 @@ If you want a new named environment, there's a number of places you need to add 
 * edit `config/deploy.rb` - edit the set of stages if you want something in addition to qa, staging, production
 * edit `config/database.yml` - add your new environment
 * edit `config/dc21app_config.yml` - add your new environment, you can just inherit default as per others
-* edit `deploy_templates/dc21app_extra_config.yml` - add your new environment, you can just inherit default as per others
 * create `config/deploy/<yourenv>.rb` - create a new file named for your environment, copying and adjusting settings as needed from another environment. More info about how to configure this can be found in the section titled "Update production deployment configuration" in [Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_Server_Build.md)
 * create `config/environments/<yourenv>.rb` - create a new file named for your environment, copying and adjusting settings as needed from another environment
 

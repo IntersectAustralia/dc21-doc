@@ -1,3 +1,5 @@
+# Smoke Tests
+
 Below is a set of tests that exercises each part of the DC21 infrastructure. This should be run after a release to ensure that all parts of the system are running correctly.
 
 This is the minimum set of tests needed. After any release you may want to run some additional tests to exercise new/modified functionality.

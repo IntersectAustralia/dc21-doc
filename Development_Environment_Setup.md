@@ -1,3 +1,5 @@
+# Development Environment Setup
+
 If you haven't already, you will need to set up your computer for Rails development. We highly recommend Mac or Linux over Windows as a development environment. If you are on Windows, we recommend running Linux in a virtual machine for development. The below instructions cover CentOS 6 or Mac OSX, but can easily be adapted for other Linux distributions.
 
 ## Assumptions
@@ -64,13 +66,13 @@ username@devmachine $ sudo /sbin/chkconfig postgresql on
 ```
 ### Postgres (Mac)
 
-We recommend using [Homebrew](https://github.com/Homebrew/homebrew) 
+We recommend using [Homebrew](https://github.com/Homebrew/homebrew)
 ```
 brew install postgresql
 # then follow the instructions it provides
 ```
 
-Alternatively, remove the version that comes with Mac OS X use [Postgres.app](http://postgresapp.com/).
+Alternatively, remove the version that comes with Mac OS X and install [Postgres.app](http://postgresapp.com/).
 ```
 which psql
 rm /usr/bin/psql
@@ -116,7 +118,7 @@ Unless you have push access to the Intersect repository, you will want to create
 ```
 # Clone your fork of the repo into the current directory in terminal
 username@devmachine $ git clone https://github.com/<yourusername>/dc21.git
-username@devmachine $ cd dc21  
+username@devmachine $ cd dc21
 # you will prompted to accept the .rvmrc only this first time. Review the file, then accept the prompt.
 ```
 ### Install required gems
@@ -133,7 +135,7 @@ username@devmachine $ sudo chmod go+w /data/dc21-data
 This creates the database tables, inserts seed data and populates it with some test data in your local dev environment.
 ```
 username@devmachine $ bundle exec rake db:setup db:seed db:populate
-# you will be prompted for a sample user password, this will be the password 
+# you will be prompted for a sample user password, this will be the password
 # for all the sample user accounts that get created by default. Pick something
 # you will remember, it must be between 6 and 20 characters long and contain
 # at least one uppercase letter, one lowercase letter, one digit and one symbol.

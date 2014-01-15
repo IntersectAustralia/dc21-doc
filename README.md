@@ -1,12 +1,17 @@
 The DC21 application is a Ruby on Rails application built by [Intersect Australia](http://www.intersect.org.au/) for the [Hawkesbury Institute for the Environment]( http://www.uws.edu.au/hie/hie) as part of an [ANDS-Funded Data Capture Project - DC21 - Climate Change and Energy Research Facilities](http://projects.ands.org.au/id/DC21)
 
-There's an additional Github repository at https://github.com/IntersectAustralia/restful-api-uploader/tree/1.9.04 which provides at set of scripts that can be run on a PC to automatically load files from that PC into DC21.
+There's an additional Github repository at https://github.com/IntersectAustralia/restful-api-uploader/blob/2.0.01 which provides at set of scripts that can be run on a PC to automatically load files from that PC into DC21.
+
+The latest stable version is:
+* [DC21 2.0.01](https://github.com/IntersectAustralia/dc21/blob/2.0.01)
+* [DC21 2.0.01 Documentation](https://github.com/IntersectAustralia/dc21-doc/blob/2.0.01/README.md)
+* [Restful API uploader 2.0.01](https://github.com/IntersectAustralia/restful-api-uploader/blob/2.0.01)
 
 Please feel free to browse any of the following documentation.
 ### For everyone:
 * [Product Overview](Product_Overview.md)
 * Cucumber Features - these are our automated acceptance tests, and they express (in plain English) the requirements of the system. This is a great place to start if you want to get an understanding of what the system does. There's a number of different ways to access them:
-  * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/1.9.04/features).
+  * [Browse on Github](https://github.com/IntersectAustralia/dc21/blob/2.0.01/features).
   * Clone the [repository](https://github.com/IntersectAustralia/dc21/) and browse in your preferred tool.
 * [Overview Diagram](Overview_Diagram.md)
 
@@ -23,7 +28,7 @@ Please feel free to browse any of the following documentation.
 * [File Upload API](File_Upload_API.md) - details of the API for automatically uploading/downloading files
 * [Search API](Search_API.md) - details of the API for scripting search
 * RSpec tests - the RSpec examples express the detailed requirements so are a good place to start getting an understanding of what the system does.  There's a number of different ways to access them:
-  * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/1.9.04/spec).
+  * [Browse on Github](https://github.com/IntersectAustralia/dc21/blob/2.0.01/spec).
   * Clone the [repository](https://github.com/IntersectAustralia/dc21) and browse in your preferred tool.
 
 ### Version Documentation:

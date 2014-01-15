@@ -1,3 +1,5 @@
+# Search API
+
 ## Search
 Search can be performed via the API. Construct a post request with the required search criteria parameters, as per the details below.
 
