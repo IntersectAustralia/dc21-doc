@@ -1,21 +1,22 @@
 # Loading External Template Files
+
 ## To use external template files
 To use another template file, in
-`dc21app_extra_config.yml` add
+`dc21app_config.yml` add
 ```
 readme_template_file: readme_template.html.haml
 readme_template_directory: /data/dc21-templates
 ```
 
-Then in `/data/dc21-templates/` you create your HTML template. It will only read the filename defined in `dc21app_extra_config.yml` - any other will be ignored. These values can be edited to point to anywhere but you will need to restart the web server for that change to take effect.
+Then in `/data/dc21-templates/` you create your HTML template. It will only read the filename defined in `dc21app_config.yml` - any other will be ignored. These values can be edited to point to anywhere but you will need to restart the web server for that change to take effect.
 
 Note: Ensure that the directory has permission for the web application to write to.
 
 ## Reverting back to default template file
-To revert back to the default template file you just simple rename or remove the file defined in `dc21app_extra_config.yml`.
+To revert back to the default template file you just simple rename or remove the file defined in `dc21app_config.yml`.
 
 ### Example
-In our configuration file `dc21app_extra_config.yml`
+In our configuration file `dc21app_config.yml`
 ```
 readme_template_file: readme_template.html.haml
 readme_template_directory: /data/dc21-templates

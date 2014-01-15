@@ -5,7 +5,7 @@ This guide is windows-specific. Other operating systems will be similar, but wit
 ## Setup
 
 ### Download and unzip scripts
-Download the [API load scripts from Github](https://github.com/IntersectAustralia/restful-api-uploader/zipball/1.9.04)
+Download the [API load scripts from Github](https://github.com/IntersectAustralia/restful-api-uploader/zipball/2.0.01)
 
 Unzip the downloaded package into a directory of your choice. For these instructions we'll assume you've unzipped it to
 ```

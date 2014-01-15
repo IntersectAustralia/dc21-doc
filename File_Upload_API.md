@@ -1,5 +1,6 @@
-## File Upload
-Files can be uploaded via the API one file at a time. Construct a multi-part post request with the required parameters and file attachment, as per the details below. 
+# File Upload API
+
+Files can be uploaded via the API one file at a time. Construct a multi-part post request with the required parameters and file attachment, as per the details below.
 
 Authentication is done by adding your API token to the URL. API tokens can only be used for API actions, however you should still take care to protect your token, as it could be used to fraudulently upload files on your behalf if obtained by someone else. You can obtain an API token by clicking on your email address, the "Settings" at the top right of the DC21 application.
 
@@ -14,7 +15,7 @@ defined in DC21
   * **file** - the actual file
 * Optional POST parameters:
   * **description** - a description of the file
-  * **tag_names** - a quoted, comma separated list of tags to apply to the file, must be from the set of legal tag names 
+  * **tag_names** - a quoted, comma separated list of tags to apply to the file, must be from the set of legal tag names
   * **parent_filenames** - an array of parent file names, which must exist on the server prior to upload
   * **label_names** - a quoted, comma separated list of labels to apply to the file
 
@@ -82,9 +83,9 @@ The result is reported back via a combination of the HTTP response code, and a J
 <div class="highlight">
 <pre>
 {
- "file_id":the_file_id, 
- "messages":[array_of_messages], 
- "file_name":"resulting_file_name", 
+ "file_id":the_file_id,
+ "messages":[array_of_messages],
+ "file_name":"resulting_file_name",
  "file_type":"resulting_type"
 }
 </pre>
