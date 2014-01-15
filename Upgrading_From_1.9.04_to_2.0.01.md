@@ -62,12 +62,12 @@ What this script does is:
 4. Installs Redis
 5. Installs Ruby 1.9.3-p448
 6. Installs Passenger 3.0.21
-7. Creates a local deploy setup
-8. Overwrites the Apache config in `/etc/httpd/conf.d/rails_dc21app.conf`, `/etc/httpd/conf/httpd.conf`, `/etc/httpd/conf.d/ssl.conf`, '/etc/httpd/conf.d/shib.conf'
-9. Runs deploy:safe and updates the server, including running migrations
-10. Creates an OpenSSL cert and stores it in /etc/httpd/ssl/server.crt and /etc/httpd/ssl/server.key
-11. Displays the AAF certificate you have to register with. Please copy this as it will be used later.
-12. Overwrite the existing logos with the generic DC21 product logo.
+7. Overwrite the existing logos with the generic DC21 product logo.
+8. Creates a local deploy setup
+9. Overwrites the Apache config in `/etc/httpd/conf.d/rails_dc21app.conf`, `/etc/httpd/conf/httpd.conf`, `/etc/httpd/conf.d/ssl.conf`, '/etc/httpd/conf.d/shib.conf'
+10. Runs deploy:safe and updates the server, including running migrations
+11. Creates an OpenSSL cert and stores it in /etc/httpd/ssl/server.crt and /etc/httpd/ssl/server.key
+12. Displays the AAF certificate you have to register with. Please copy this as it will be used later.
 
 The script will NOT:
 * Reinstall jOAI
