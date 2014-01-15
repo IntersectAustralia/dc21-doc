@@ -1,4 +1,4 @@
-# Developer's Guide
+# Developers Guide
 
 This document gives an overview of the system for future developers including those who may wish to reuse the application and/or contribute changes.
 
