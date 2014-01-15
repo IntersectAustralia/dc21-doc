@@ -66,7 +66,7 @@ What this script does is:
 8. Creates a local deploy setup
 9. Overwrites the Apache config in `/etc/httpd/conf.d/rails_dc21app.conf`, `/etc/httpd/conf/httpd.conf`, `/etc/httpd/conf.d/ssl.conf`, '/etc/httpd/conf.d/shib.conf'
 10. Runs deploy:safe and updates the server, including running migrations
-11. Creates an OpenSSL cert and stores it in /etc/httpd/ssl/server.crt and /etc/httpd/ssl/server.key
+11. Creates an OpenSSL cert and stores it in `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key`
 12. Displays the AAF certificate you have to register with. Please copy this as it will be used later.
 
 The script will NOT:
@@ -78,6 +78,9 @@ The script will NOT:
 You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/blob/2.0.01/vm_setup.sh).
 
 ## Post upgrade instructions
+
+### Using a commercial SSL certificate
+Using a self-signed certificate will bring up a warning on browsers. If you have a commercial SSL certificate, you can replace the self-signed certificates at `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key` on the _server_ machine.
 
 ### Register your server with AAF
 
