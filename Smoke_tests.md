@@ -108,7 +108,7 @@ There are "rif-cs-<ID>.xml" elements present for each published collection.<br>
 <tr>
 <td>DC21-Smoke 7</td>
 <td>Assure that SSL is correctly configured</td>
-<td>This can be skipped if you are not running your site on https.</td>
+<td></td>
 <td>
 1.Go to https://< DC21-server-url >where < DC21-server-url > is your production server<br>
 2. Go to http://< DC21-server-url > where < DC21-server-url > is your production server<br>
@@ -116,5 +116,16 @@ There are "rif-cs-<ID>.xml" elements present for each published collection.<br>
 <td>
 1. When visiting https://< DC21-server-url >, the home page is displayed. Browser displays padlock or similar to indicate that you are on a secure connection.<br>
 2. When visiting http://< DC21-server-url >, you are redirected from http onto https<br>
+</tr>
+<tr>
+<td>DC21-Smoke 8</td>
+<td>Assure that AAF is correctly configured</td>
+<td></td>
+<td>
+1. Go to https://< DC21-server-url >where < DC21-server-url > is your production server<br>
+2. Click "Log in via AAF"<br>
+</td>
+<td>
+1. You should be redirected to AAF to choose your Identity Provider and etc
 </tr>
 <table>
