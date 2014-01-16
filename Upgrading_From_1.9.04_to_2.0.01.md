@@ -56,6 +56,7 @@ bash <(curl https://github.com/IntersectAustralia/dc21/raw/2.0.01/setup.sh)
 The setup script uses 'expect' and you may receive a prompt for the 'dc21' user's password to install it. After that, the script is fully automated.
 
 What this script does is:
+
 1. Installs Tesseract (for OCR)
 2. Installs OpenSSL
 3. Installs Shibboleth
