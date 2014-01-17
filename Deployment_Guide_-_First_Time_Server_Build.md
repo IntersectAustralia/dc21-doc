@@ -58,7 +58,7 @@ Once you have modified the setup configuration, run the following:
 
 ```
 cd $HOME
-bash <(curl https://github.com/IntersectAustralia/dc21/raw/2.0.01/setup.sh)
+bash <(curl https://raw.github.com/IntersectAustralia/dc21/2.0.01/setup.sh)
 ```
 The setup script uses 'expect' and you may receive a prompt for the 'dc21' user's password to install it. After that, the script is fully automated.
 
