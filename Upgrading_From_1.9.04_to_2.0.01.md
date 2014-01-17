@@ -40,7 +40,6 @@ On the _server_ machine, you will need to download the setup configuration.
 cd $HOME
 wget https://github.com/IntersectAustralia/dc21/raw/2.0.01/setup_config
 vi $HOME/setup_config
-
 ```
 
 You will need to modify the setup_config with the appropriate values.
@@ -51,7 +50,7 @@ Once you have modified the setup configuration, run the following:
 
 ```
 cd $HOME
-bash <(curl https://github.com/IntersectAustralia/dc21/raw/2.0.01/setup.sh)
+bash <(curl https://raw.github.com/IntersectAustralia/dc21/2.0.01/setup.sh)
 ```
 The setup script uses 'expect' and you may receive a prompt for the 'dc21' user's password to install it. After that, the script is fully automated.
 
