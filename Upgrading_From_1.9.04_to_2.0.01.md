@@ -126,6 +126,10 @@ file_types:
 ip_addresses:
 ```
 
+### Restart the server
+
+Once you have made the necessary changes, we recommend running `sudo service httpd restart` to ensure the changes are loaded.
+
 ## Check that things work
 Check that you can successfully visit the site at the hostname or IP you configured.
 

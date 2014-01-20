@@ -75,7 +75,7 @@ What this script does is:
 9. Installs Postgres
 10. Installs CRON job to periodically remove temporary zip files used for downloads.
 11. Creates a local deploy setup
-12. Overwrites the Apache config in `/etc/httpd/conf.d/rails_dc21app.conf`, `/etc/httpd/conf/httpd.conf`, `/etc/httpd/conf.d/ssl.conf`, '/etc/httpd/conf.d/shib.conf'
+12. Overwrites the Apache config in `/etc/httpd/conf.d/rails_dc21app.conf`, `/etc/httpd/conf/httpd.conf`, `/etc/httpd/conf.d/ssl.conf`, `/etc/httpd/conf.d/shib.conf`
 13. Runs deploy:safe and updates the server, including running migrations
 14. Creates an OpenSSL cert and stores it in `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key`
 15. Displays the AAF certificate you have to register with. Please copy this as it will be used later.
