@@ -3,7 +3,7 @@
 There is a significant change to the deployment process for 2.0.01 which no longer requires a _deploy_ machine.
 These instructions assume you have deployed DC21 based on the [v1.9.04 Deployment Guide](https://github.com/IntersectAustralia/dc21-doc/blob/1.9.04/Deployment_Guide.md) and have a _server_ machine up and running.
 
-We highly recommend backing up the entire server before proceeding.
+### We highly recommend backing up the entire server before proceeding.
 
 ## Assumptions
 
@@ -77,14 +77,25 @@ The script will NOT:
 
 You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/blob/2.0.01/vm_setup.sh).
 
-## Post upgrade instructions
+### Known issues
+* If Github is having server issues, the deploy:safe method might fail during the upgrade. If this happens, follow [the setup script from line 105 onwards](https://github.com/IntersectAustralia/dc21/blob/2.0.x/vm_setup.sh#L105).
+* If there are any other issues during the install, please keep a copy of the console output and contact Intersect Australia.
 
-### Using a commercial SSL certificate
-Using a self-signed certificate will bring up a warning on browsers. If you have a commercial SSL certificate, you can replace the self-signed certificates at `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key` on the _server_ machine.
+## Post upgrade instructions
 
 ### Register your server with AAF
 
-See [Registering your server with AAF](AAF_Registration.md).
+At the end of the installation, you should be presented with an AAF service provider certificate.
+```
+-----BEGIN CERTIFICATE-----
+...
+-----END CERTIFICATE-----
+```
+
+Copy the certificate, including the BEGIN/END lines, and follow the instructions at [Registering your server with AAF](AAF_Registration.md).
+
+### Using a commercial SSL certificate
+Using a self-signed certificate will bring up a warning on browsers. If you have a commercial SSL certificate, you can replace the self-signed certificates at `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key` on the _server_ machine.
 
 ### Update your external README.HTML templates
 

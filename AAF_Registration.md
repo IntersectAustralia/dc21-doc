@@ -7,8 +7,7 @@ The [Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_S
 
 You should have been presented with the AAF certificate to register your app with. Copy this for use in Step 3.
 
-The attributes needed are:
-* auEduPersonSharedToken
+The attributes to be requested are:
 * auEduPersonTargetedID
 * displayName
 * email (required)

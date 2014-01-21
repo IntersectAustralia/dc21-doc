@@ -2,7 +2,7 @@ The DC21 application is a Ruby on Rails application built by [Intersect Australi
 
 There's an additional Github repository at https://github.com/IntersectAustralia/restful-api-uploader/blob/2.0.01 which provides at set of scripts that can be run on a PC to automatically load files from that PC into DC21.
 
-The latest stable version is:
+The latest stable versions are:
 * [DC21 2.0.01](https://github.com/IntersectAustralia/dc21/blob/2.0.01)
 * [DC21 2.0.01 Documentation](https://github.com/IntersectAustralia/dc21-doc/blob/2.0.01/README.md)
 * [Restful API uploader 2.0.01](https://github.com/IntersectAustralia/restful-api-uploader/blob/2.0.01)

@@ -3,7 +3,7 @@
 Below are links to a set of pages describing various aspects of deployment. Please read the following information before proceeding.
 
 ## Important Info About Deployment
-As of version 2.0.01, the approach to DC21 deployment is to run a series of commands on the target production server to update the server locally. This removes the need for a _deployment_ machine.
+As of version 2.0, the approach to DC21 deployment is to run a series of commands on the target production server to update the server locally. This removes the need for a _deployment_ machine.
 
 The _server_ machine is the production server where the web application will run.
 
