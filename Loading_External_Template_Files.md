@@ -1,8 +1,9 @@
 # Loading External Template Files
 
+Get a copy of the latest external template [here](https://github.com/IntersectAustralia/dc21/blob/master/app/templates/file_set_metadata.html.haml)
+
 ## To use external template files
-To use another template file, in
-`dc21app_config.yml` add
+To use another template file, in `dc21app_config.yml` add
 ```
 readme_template_file: readme_template.html.haml
 readme_template_directory: /data/dc21-templates

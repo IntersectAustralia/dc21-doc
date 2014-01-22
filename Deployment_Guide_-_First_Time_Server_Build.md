@@ -46,7 +46,7 @@ On the _server_ machine, you will need to download the setup configuration.
 
 ```
 cd $HOME
-wget https://github.com/IntersectAustralia/dc21/raw/2.0.01/setup_config
+wget https://github.com/IntersectAustralia/dc21/raw/master/setup_config
 vi $HOME/setup_config
 ```
 
@@ -58,7 +58,7 @@ Once you have modified the setup configuration, run the following:
 
 ```
 cd $HOME
-bash <(curl https://raw.github.com/IntersectAustralia/dc21/2.0.01/setup.sh)
+bash <(curl https://raw.github.com/IntersectAustralia/dc21/master/setup.sh)
 ```
 The setup script uses 'expect' and you may receive a prompt for the 'dc21' user's password to install it. After that, the script is fully automated.
 
@@ -80,7 +80,7 @@ What this script does is:
 14. Creates an OpenSSL cert and stores it in `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key`
 15. Displays the AAF certificate you have to register with. Please copy this as it will be used later.
 
-You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/blob/2.0.01/vm_setup.sh).
+You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/blob/master/vm_setup.sh).
 
 ### Known issues
 * If Github is having server issues, the deploy:safe method might fail during the upgrade. If this happens, follow [the setup script from line 105 onwards](https://github.com/IntersectAustralia/dc21/blob/2.0.x/vm_setup.sh#L105).
