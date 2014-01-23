@@ -131,7 +131,9 @@ There are "rif-cs-<ID>.xml" elements present for each published collection.<br>
 <tr>
 <td>DC21-Smoke 9</td>
 <td>Assure that Tesseract OCR is working</td>
-<td></td>
+<td>
+1. Your ABBYY details have been left blank in the Admin interface<br>
+</td>
 <td>
 1. Upload a .jpg file (eg image.jpg)<br>
 2. Go to the image.jpg data file details page<br>
