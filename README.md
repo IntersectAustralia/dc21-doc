@@ -2,7 +2,7 @@ The DC21 application is a Ruby on Rails application built by [Intersect Australi
 
 There's an additional Github repository at https://github.com/IntersectAustralia/restful-api-uploader/blob/2.0.01 which provides at set of scripts that can be run on a PC to automatically load files from that PC into DC21.
 
-The latest stable version is:
+The latest stable versions are:
 * [DC21 2.0.01](https://github.com/IntersectAustralia/dc21/blob/2.0.01)
 * [DC21 2.0.01 Documentation](https://github.com/IntersectAustralia/dc21-doc/blob/2.0.01/README.md)
 * [Restful API uploader 2.0.01](https://github.com/IntersectAustralia/restful-api-uploader/blob/2.0.01)
@@ -19,7 +19,7 @@ Please feel free to browse any of the following documentation.
 * [Deployment Guide](Deployment_Guide.md) - instructions on how to install the web application and do subsequent updates.
 * [Setting Up Automated Load From PC](Setting_Up_Automated_Load_From_PC.md) - how to automatically send files to DC21 from a PC
 * [Loading external template files](Loading_External_Template_Files.md) - how to tell the web application to read an external template file for README.html without redeploying
-* [Upgrading From 1.9.04 to 2.0.01](Upgrading_From_1.9.04_to_2.0.01.md) - Instructions to upgrade your server from 1.9.04.
+* [Upgrading From 1.9.04 to 2.0](Upgrading_From_1.9.04_to_2.0.01.md) - Instructions to upgrade your server from 1.9.04.
 
 ###  For developers:
 * [Developers Guide](Developers_Guide.md) - useful information for future developers of the application.

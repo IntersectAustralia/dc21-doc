@@ -46,7 +46,7 @@ On the _server_ machine, you will need to download the setup configuration.
 
 ```
 cd $HOME
-wget https://github.com/IntersectAustralia/dc21/raw/2.0.01/setup_config
+wget https://github.com/IntersectAustralia/dc21/raw/master/setup_config
 vi $HOME/setup_config
 ```
 
@@ -58,7 +58,7 @@ Once you have modified the setup configuration, run the following:
 
 ```
 cd $HOME
-bash <(curl https://raw.github.com/IntersectAustralia/dc21/2.0.01/setup.sh)
+bash <(curl https://raw.github.com/IntersectAustralia/dc21/master/setup.sh)
 ```
 The setup script uses 'expect' and you may receive a prompt for the 'dc21' user's password to install it. After that, the script is fully automated.
 
@@ -80,16 +80,27 @@ What this script does is:
 14. Creates an OpenSSL cert and stores it in `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key`
 15. Displays the AAF certificate you have to register with. Please copy this as it will be used later.
 
-You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/blob/2.0.01/vm_setup.sh).
+You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/blob/master/vm_setup.sh).
+
+### Known issues
+* If Github is having server issues, the deploy:safe method might fail during the upgrade. If this happens, follow [the setup script from line 105 onwards](https://github.com/IntersectAustralia/dc21/blob/2.0.x/vm_setup.sh#L105).
+* If there are any other issues during the install, please keep a copy of the console output and contact Intersect Australia.
 
 ## Post upgrade instructions
 
-### Using a commercial SSL certificate
-Using a self-signed certificate will bring up a warning on browsers. If you have a commercial SSL certificate, you can replace the self-signed certificates at `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key` on the _server_ machine.
-
 ### Register your server with AAF
 
-See [Registering your server with AAF](AAF_Registration.md).
+At the end of the installation, you should be presented with an AAF service provider certificate.
+```
+-----BEGIN CERTIFICATE-----
+...
+-----END CERTIFICATE-----
+```
+
+Copy the certificate, including the BEGIN/END lines, and follow the instructions at [Registering your server with AAF](AAF_Registration.md).
+
+### Using a commercial SSL certificate
+Using a self-signed certificate will bring up a warning on browsers. If you have a commercial SSL certificate, you can replace the self-signed certificates at `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key` on the _server_ machine.
 
 ### Configure RIF-CS Harvest
 1. Visit "http://server_url/oai"
