@@ -7,7 +7,6 @@ The [Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_S
 ## Updating Your System
 Go to your deployment directory (i.e. the directory you cloned the repository to during original setup), e.g. assuming you checked it out to your home directory:
 ```
-dc21@server $ source $HOME/setup_config
 dc21@server $ cd ~/code_base/dc21
 ```
 Update your copy of the repo and check out the tag you want to deploy:
