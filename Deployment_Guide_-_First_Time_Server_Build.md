@@ -80,10 +80,10 @@ What this script does is:
 14. Creates an OpenSSL cert and stores it in `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key`
 15. Displays the AAF certificate you have to register with. Please copy this as it will be used later.
 
-You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/blob/master/vm_setup.sh).
+You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/tree/master/vm_setup.sh).
 
 ### Known issues
-* If Github is having server issues, the deploy:safe method might fail during the upgrade. If this happens, follow [the setup script from line 105 onwards](https://github.com/IntersectAustralia/dc21/blob/2.0.x/vm_setup.sh#L105).
+* If Github is having server issues, the deploy:safe method might fail during the upgrade. If this happens, follow [the setup script from line 105 onwards](https://github.com/IntersectAustralia/dc21/tree/2.0.x/vm_setup.sh#L105).
 * If there are any other issues during the install, please keep a copy of the console output and contact Intersect Australia.
 
 ## Post upgrade instructions

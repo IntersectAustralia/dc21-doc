@@ -1,7 +1,7 @@
 # Upgrading From 1.9.04 to 2.0
 
 There is a significant change to the deployment process for 2.0 which no longer requires a _deploy_ machine.
-These instructions assume you have deployed DC21 based on the [v1.9.04 Deployment Guide](https://github.com/IntersectAustralia/dc21-doc/blob/1.9.04/Deployment_Guide.md) and have a _server_ machine up and running.
+These instructions assume you have deployed DC21 based on the [v1.9.04 Deployment Guide](https://github.com/IntersectAustralia/dc21-doc/tree/1.9.04/Deployment_Guide.md) and have a _server_ machine up and running.
 
 ### We highly recommend backing up the entire server before proceeding.
 
@@ -25,7 +25,7 @@ You have a _server_ machine ready with the following environment:
 * has an FQDN
 * has a user 'dc21'
 * has DC21 v1.9.04 deployed
-* has Redis manually installed based on [v1.9.04 Redis Setup](https://github.com/IntersectAustralia/dc21-doc/blob/1.9.04/Setting_up_redis_and_resque.md)
+* has Redis manually installed based on [v1.9.04 Redis Setup](https://github.com/IntersectAustralia/dc21-doc/tree/1.9.04/Setting_up_redis_and_resque.md)
 * has OAI set up
 * has Postgres set up
 * has RVM and Ruby 1.9.2-p290 installed
@@ -75,10 +75,10 @@ The script will NOT:
 * Overwrite cron settings
 * Overwrite /data/dc21app_extra_config.yml
 
-You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/blob/master/vm_setup.sh).
+You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/tree/master/vm_setup.sh).
 
 ### Known issues
-* If Github is having server issues, the deploy:safe method might fail during the upgrade. If this happens, follow [the setup script from line 105 onwards](https://github.com/IntersectAustralia/dc21/blob/2.0.x/vm_setup.sh#L105).
+* If Github is having server issues, the deploy:safe method might fail during the upgrade. If this happens, follow [the setup script from line 105 onwards](https://github.com/IntersectAustralia/dc21/tree/2.0.x/vm_setup.sh#L105).
 * If there are any other issues during the install, please keep a copy of the console output and contact Intersect Australia.
 
 ## Post upgrade instructions
