@@ -18,7 +18,10 @@ defined in DC21
   * **tag_names** - a quoted, comma separated list of tags to apply to the file, must be from the set of legal tag names
   * **parent_filenames** - an array of parent file names, which must exist on the server prior to upload
   * **label_names** - a quoted, comma separated list of labels to apply to the file
-
+  * **access** - access level for the file is either 'Public' or 'Private' (default is 'Private' unless otherwise specified)
+  * **access_to_all_institutional_users** - an option for private access for Institutional Users, which can be set either true or false
+  * **access_to_user_groups** - an option for private access for certain groups of users, which can be set to true or false
+  * **access_groups** - an array of names of access groups, which must exist on the server prior to upload
 
 ### Response
 The result is reported back via a combination of the HTTP response code, and a JSON body.
