@@ -43,7 +43,7 @@ transfer_config.yml -------------------------------------------
   * **backup**: (optional) absolute path of *existing* Backup folder.
   * **parent_filenames**: (optional) parent files for the file must exist on the server prior to upload, and must be an array of file names
   * **label_names**: (optional) labels to be applied, which must be comma separated and placed in single quotes
-  * **access**: (optional) access level for the file, the value must be is either 'Public' or 'Private' (default access is 'Private' if the option in not specified)
+  * **access**: (optional) access level for the file, the value must be either 'Public' or 'Private' (default access is 'Private' if the option in not specified)
   * **access_to_all_institutional_users**: (optional) a Private access option for a particualr class of users, the value must be either true or false (default is true if the option is not specified)
   * **access_to_user_groups:** (optional) a Private access option for specific users in access groups, the value must be either true or false. If true, a dash list of access groups (one per line) must follow - e.g. '- group 1' (default is false if the option is not specified)
 
