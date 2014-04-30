@@ -44,8 +44,8 @@ transfer_config.yml -------------------------------------------
   * **parent_filenames**: (optional) parent files for the file must exist on the server prior to upload, and must be an array of file names
   * **label_names**: (optional) labels to be applied, which must be comma separated and placed in single quotes
   * **access**: (optional) access level for the file must be is either 'Public' or 'Private' (default access is 'Private' if the option in not specified)
-  * **access_to_all_institutional_users: (optional) an option for private access for Institutional Users, which must be either true or false (default is true if the option is not specified)
-  * **access_to_user_groups:** (optional) an option for private access for certain groups of users, which must be true or false. If true, a dash list of access groups (one per line) must follow - e.g. '- group 1' (defaults is false if the option is not specified)
+  * **access_to_all_institutional_users**: (optional) a private access option, value must be either true or false (default is true if the option is not specified)
+  * **access_to_user_groups:** (optional) a private access option for specific users in access groups, value must be either true or false. If true, a dash list of access groups (one per line) must follow - e.g. '- group 1' (default is false if the option is not specified)
 
 wrapper_config.yml -------------------------------------------
 * **files**: this section needs to contain one stanza per file you wish to upload (these should be the same files as specified in transfer_config.yml)
