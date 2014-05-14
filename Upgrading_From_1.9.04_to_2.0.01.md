@@ -38,7 +38,7 @@ On the _server_ machine, you will need to download the setup configuration.
 
 ```
 cd $HOME
-wget https://github.com/IntersectAustralia/dc21/raw/master/setup_config
+wget https://github.com/IntersectAustralia/dc21/blob/master/setup_config?raw=true -O setup_config
 vi $HOME/setup_config
 ```
 
