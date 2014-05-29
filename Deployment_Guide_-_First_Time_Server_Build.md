@@ -99,6 +99,9 @@ At the end of the installation, you should be presented with an AAF service prov
 
 Copy the certificate, including the BEGIN/END lines, and follow the instructions at [Registering your server with AAF](AAF_Registration.md).
 
+### Modify the 'shibb_login_url' to your sp server URL for your deployment environment
+Edit file ~/dc21app/current/config/shibboleth.yml, find your environment and modify the 'shibb_login_url' to your sp server URL. 
+
 ### Using a commercial SSL certificate
 Using a self-signed certificate will bring up a warning on browsers. If you have a commercial SSL certificate, you can replace the self-signed certificates at `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key` on the _server_ machine.
 
