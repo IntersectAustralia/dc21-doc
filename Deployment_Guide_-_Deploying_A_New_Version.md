@@ -1,10 +1,17 @@
 # Deployment Guide: Deploying a new version
 
 ## Assumptions
-The [Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_Server_Build.md) or [Upgrading From 1.9.04 to 2.0](Upgrading_From_1.9.04_to_2.0.01.md) instructions have been successfully followed. This means you will have a _server_ machine successfully built.
+The [Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_Server_Build.md) instructions have been successfully followed and you have version 2.1 onwards installed. This means you will have a _server_ machine successfully built.
 
+## Updating Your System Using The Setup Config
 
-## Updating Your System
+Update DC21_TAG with the tag you wish to deploy and uncomment the line with `export DC21_UPGRADE=true`
+```
+dc21@server $ vi ~/setup_config
+dc21@server $ bash <(curl -L https://github.com/IntersectAustralia/dc21/blob/master/setup.sh?raw=true)
+```
+
+## Updating Your System Manually
 Go to your deployment directory (i.e. the directory you cloned the repository to during original setup), e.g. assuming you checked it out to your home directory:
 ```
 dc21@server $ cd ~/code_base/dc21

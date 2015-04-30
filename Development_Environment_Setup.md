@@ -35,9 +35,9 @@ username@devmachine $ curl -O http://www6.atomicorp.com/channels/atomic/centos/6
 username@devmachine $ sudo  rpm -Uvh atomic-release-1.0-14.el6.art.noarch.rpm
 username@devmachine $ sudo yum install libyaml-devel
 ```
-Install Ruby 1.9.3
+Install Ruby 2.0.0
 ```
-username@devmachine $ rvm install 1.9.3-p448
+username@devmachine $ rvm install 2.0.0-p481
 ```
 ### Postgres (CentOS)
 ```
