@@ -14,7 +14,6 @@ These instructions are tailored to and tested on CentOS 6.4. However there shoul
 
 ## Assumed Preparation
 
-
 You have a _server_ machine ready that:
 * is a clean el6 server with the standard "Server" packages.
 * has EPEL yum repository is installed.
@@ -22,6 +21,10 @@ You have a _server_ machine ready that:
 * has selinux disabled, unless you are willing to add all the policy allow rules for the application.
 * its firewall and iptables should allow incoming tcp traffic to ssh (22), http (80) and https (443).
 * it can install packages through yum
+
+If you intend to use [AAF Rapid Connect](https://rapid.aaf.edu.au/registration), we recommend registering your service provider first.
+
+See [Registering with AAF Rapid Connect](AAF_Registration.md)
 
 ## Running the complete install script
 
@@ -44,10 +47,12 @@ dc21      ALL=(ALL)      ALL
 
 On the _server_ machine, you will need to download the setup configuration.
 
+Make sure you are logged in as the dc21 user.
+
 ```
-cd $HOME
-wget https://github.com/IntersectAustralia/dc21/blob/master/setup_config?raw=true -O setup_config
-vi $HOME/setup_config
+dc21@server $ cd $HOME
+dc21@server $ wget https://github.com/IntersectAustralia/dc21/blob/master/setup_config?raw=true -O setup_config --no-check-certificate
+dc21@server $ vi $HOME/setup_config
 ```
 
 You will need to modify the setup_config with the appropriate values.
@@ -67,18 +72,16 @@ What this script does is:
 1. Installs Tesseract (for OCR)
 2. Installs Apache
 3. Installs OpenSSL
-4. Installs Shibboleth
-5. Installs Redis
-6. Installs Ruby 1.9.3-p448
-7. Installs Passenger 3.0.21
-8. Installs OAI and Tomcat
-9. Installs Postgres
-10. Installs CRON job to periodically remove temporary zip files used for downloads.
-11. Creates a local deploy setup
-12. Overwrites the Apache config in `/etc/httpd/conf.d/rails_dc21app.conf`, `/etc/httpd/conf/httpd.conf`, `/etc/httpd/conf.d/ssl.conf`, `/etc/httpd/conf.d/shib.conf`
-13. Runs deploy:safe and updates the server, including running migrations
-14. Creates an OpenSSL cert and stores it in `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key`
-15. Displays the AAF certificate you have to register with. Please copy this as it will be used later.
+4. Installs Redis
+5. Installs Ruby 2.0.0-p481
+6. Installs Passenger 4.0.45
+7. Installs OAI and Tomcat
+8. Installs Postgres
+9. Installs CRON job to periodically remove temporary zip files used for downloads.
+10. Creates a local deploy setup
+11. Overwrites the Apache config in `/etc/httpd/conf.d/rails_dc21app.conf`, `/etc/httpd/conf/httpd.conf`, `/etc/httpd/conf.d/ssl.conf`
+12. Runs deploy:safe and updates the server, including running migrations
+13. Creates an OpenSSL cert and stores it in `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key`
 
 You can read up more of the script [here](https://github.com/IntersectAustralia/dc21/tree/master/vm_setup.sh).
 
@@ -87,20 +90,6 @@ You can read up more of the script [here](https://github.com/IntersectAustralia/
 * If there are any other issues during the install, please keep a copy of the console output and contact Intersect Australia.
 
 ## Post upgrade instructions
-
-### Register your server with AAF
-
-At the end of the installation, you should be presented with an AAF service provider certificate.
-```
------BEGIN CERTIFICATE-----
-...
------END CERTIFICATE-----
-```
-
-Copy the certificate, including the BEGIN/END lines, and follow the instructions at [Registering your server with AAF](AAF_Registration.md).
-
-### Modify the 'shibb_login_url' to your sp server URL for your deployment environment
-Edit file ~/dc21app/current/config/shibboleth.yml, find your environment and modify the 'shibb_login_url' to your sp server URL. 
 
 ### Using a commercial SSL certificate
 Using a self-signed certificate will bring up a warning on browsers. If you have a commercial SSL certificate, you can replace the self-signed certificates at `/etc/httpd/ssl/server.crt` and `/etc/httpd/ssl/server.key` on the _server_ machine.
