@@ -175,15 +175,17 @@ There are "rif-cs-<ID>.xml" elements present for each published collection.<br>
 <tr>
 <td>DC21-Smoke 12</td>
 <td>Assure that netcdf files can be uploaded</td>
-<td>1. <br>
-2.
+<td>You are logged in as a Researcher. </td>
+<td>
+1. Click "Upload"<br/>
+2. Select a file type, experiment, tags and enter a description<br/>
+3. Select a .nc file to upload<br/>
+4. Click Upload
 </td>
-<td>1. Upload a .nc file (eg eMAST_eWATCH_day_prec_v1m0_1979_2012_19900701.nc)<br>
-2. Go to the eMAST_eWATCH_day_prec_v1m0_1979_2012_19900701.nc data file details page<br>
-3. 
-</td>
-<td>1. <br>
-2. .
+<td>
+1. File is uploaded successfully and can be found via search<br>
+2. Click on the Filename (in the explore data tab) it should have file format at NETCDF, Information from the File and Variables (5 columns : Column, Column Mapping, Unit, Measurement Type, Fill Value)<br>
+Note: you may wish to delete the file afterwards.
 </td>
 </tr>
 <table>
