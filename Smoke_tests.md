@@ -191,7 +191,7 @@ Note: you may wish to delete the file afterwards.
 <tr>
 <td>DC21-Smoke 13</td>
 <td> Check once a package is published check that the jOAI system receives the package and is ready to upstream it</td>
-<td>You are logged in as a Researcher and already published a package.</td>
+<td>You are logged in as a Researcher and already published a package. You also have SSH access to the VM.</td>
 <td>
 1.  Once a package appears in the /published_rif_cs/ folder grab the Package ID from the filename eg. "rif-cs-86752.xml, so 86752.<br/>
 </td>
