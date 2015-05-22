@@ -188,4 +188,17 @@ There are "rif-cs-<ID>.xml" elements present for each published collection.<br>
 Note: you may wish to delete the file afterwards.
 </td>
 </tr>
+<tr>
+<td>DC21-Smoke 13</td>
+<td> Check once a package is published check that the jOAI system receives the package and is ready to upstream it</td>
+<td>You are logged in as a Researcher and already published a package.</td>
+<td>
+1.  Once a package appears in the /published_rif_cs/ folder grab the Package ID from the filename eg. "rif-cs-86752.xml, so 86752.<br/>
+</td>
+<td>
+The package should be in this response from the jOAI provider - http://<hostname>/oai/provider?verb=ListIdentifiers&metadataPrefix=rif <br/>
+And http://<hostname>/oai/provider?verb=GetRecord&metadataPrefix=rif&identifier=oai:hiev.uws.edu.au:rif-cs-86752
+should show the relevant file
+</td>
+</tr>
 <table>
