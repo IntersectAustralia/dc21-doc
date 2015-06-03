@@ -1,6 +1,6 @@
 The DC21 application is a Ruby on Rails application built by [Intersect Australia](http://www.intersect.org.au/) for the [Hawkesbury Institute for the Environment]( http://www.uws.edu.au/hie/hie) as part of an [ANDS-Funded Data Capture Project - DC21 - Climate Change and Energy Research Facilities](http://projects.ands.org.au/id/DC21).
 
-The name 'DC21' corresponds to the ANDS project code under which the application was developed. in 2014, Intersect rebranded this application DIVER (Data is Vital for Emperical Research)
+The name 'DC21' corresponds to the ANDS project code under which the application was developed. in 2014, Intersect rebranded the application DIVER (Data is Vital for Emperical Research).
 
 ### Versions
 The following provides links to the respective repositories for each version.
