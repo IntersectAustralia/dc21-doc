@@ -11,6 +11,8 @@ See [Development Environment Setup](Development_Environment_Setup.md)
 * File system (for storage of uploaded data files)
 * Access to an instance of [The Mint](http://www.redboxresearchdata.com.au/) for retrieval for FOR (field of research) codes. This can easily be replaced with an alternate lookup mechanism if desired.
 * jOAI - the open source Java OAI provider for exposing the RIF-CS records over OAI-PMH
+* netcdf - a set of software libraries that support the creation, access, and sharing of array-oriented scientific data.
+* redis - a key-value cache and store.
 
 ## Navigating The Code
 DC21 is a Ruby on Rails application (3.2) so it follows the standard Rails application layout. Refer to the official [Rails guides](http://guides.rubyonrails.org/) if you need an explanation of the directory layout.

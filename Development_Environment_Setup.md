@@ -101,6 +101,32 @@ cd $HOME/code_base/tesseract-ocr/ && ./autogen.sh && ./configure && make && sudo
 sudo ldconfig
 ```
 
+### netcdf
+Install netcdf on a Mac using [Homebrew](https://github.com/Homebrew/homebrew):
+```
+brew tap homebrew/science
+brew install netcdf
+brew install nco
+```
+
+On CentOS install by:
+```
+sudo yum -y install netcdf netcdf-devel nco
+```
+
+### redis
+Install and start redis on a Mac using [Homebrew](https://github.com/Homebrew/homebrew):
+```
+brew install redis
+redis-server /usr/local/etc/redis.conf
+```
+
+On CentOS, install and start by:
+```
+sudo yum -y install redis
+sudo service redis start
+```
+
 ## DC21 Project
 ### Set up DC21 postgres user
 ```
