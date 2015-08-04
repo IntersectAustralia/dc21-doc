@@ -10,8 +10,7 @@ Authentication is done by adding your API token to the URL. API tokens can only 
 * URL: https://\<base_url_for_your_server\>/data_files/api_create.json?auth_token=\<your_personal_api_token\>
 * Mandatory POST parameters:
   * **experiment_id** (or **org_level2_id**) - the numeric ID of the experiment this file belongs to - you can find the numeric ID on the 'view experiment page'
-  * **type** - the type of file, one of UNKNOWN, RAW, CLEANSED, PROCESSED
-defined in DC21
+  * **type** - the type of file, one of UNKNOWN, RAW, CLEANSED, PROCESSED defined in DC21
   * **file** - the actual file
 * Optional POST parameters:
   * **description** - a description of the file
@@ -22,6 +21,8 @@ defined in DC21
   * **access_to_all_institutional_users** - an option for private access for Institutional Users, which can be set either true or false
   * **access_to_user_groups** - an option for private access for certain groups of users, which can be set to true or false
   * **access_groups** - an array of names of access groups, which must exist on the server prior to upload
+  * **start_time** - The start time to use if one could not be extracted from the file's metadata. Must be in the format 'yyyy-mm-dd hh:mm:ss'
+  * **end_time** - The end time to use if one could not be extracted from the file's metadata. Must be in the format 'yyyy-mm-dd hh:mm:ss'
 
 ### Response
 The result is reported back via a combination of the HTTP response code, and a JSON body.
@@ -55,8 +56,10 @@ The result is reported back via a combination of the HTTP response code, and a J
   - experiment id not supplied<br>
   - unrecognised type<br>
   - experiment does not exist<br>
-  - file element is not a valid file (e.g. a string was
-  supplied instead of a file part)</td>
+  - file element is not a valid file (e.g. a string was supplied instead of a file part)<br>
+  - start or end date is not valid<br>
+  - start date is after end date<br>
+  </td>
   <td>400</td>
   <td>json hash e.g.<br>
 <div class="hightlight">
