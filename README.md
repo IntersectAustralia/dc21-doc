@@ -34,7 +34,7 @@ Please feel free to browse any of the following documentation.
 * [RIFCS Mapping](RIFCS_Mapping.md) - details of the RIFCS records produced by the system.
 * [File Upload API](File_Upload_API.md) - details of the API for automatically uploading/downloading files
 * [Search API](Search_API.md) - details of the API for scripting search
-* [Package Create](Package_Create_API.md) - details of the API for creating packages
+* [Package Create API](Package_Create_API.md) - details of the API for creating packages
 * RSpec tests - the RSpec examples express the detailed requirements so are a good place to start getting an understanding of what the system does.  There's a number of different ways to access them:
   * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/2.0.01/spec).
   * Clone the [repository](https://github.com/IntersectAustralia/dc21) and browse in your preferred tool.
