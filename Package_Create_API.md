@@ -17,6 +17,7 @@ Authentication is done by adding your API token to the URL. API tokens can only 
   * **description** - a description of the package
   * **tag_names** - a quoted, comma separated list of tags to apply to the package, must be from the set of legal tag names
   * **label_names** - a quoted, comma separated list of labels to apply to the package
+  * **access_rights_type** - the access rights type, must be one of "Open", "Conditional" or "Restricted". (defaults to "Open")
   * **start_time** - the start time to use. Must be in the format 'yyyy-mm-dd hh:mm:ss'
   * **end_time** - the end time to use. Must be in the format 'yyyy-mm-dd hh:mm:ss'
   * **run_in_background** - use "false" if the package should be built in the foreground. (defaults to "true")
