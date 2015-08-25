@@ -13,11 +13,13 @@ Authentication is done by adding your API token to the URL. API tokens can only 
   * **filename** - the filename of the package to create (excluding .zip)
   * **experiment_id** (or **org_level2_id**) - the numeric ID of the experiment this package belongs to - you can find the numeric ID on the 'view experiment page'
   * **title** - the title of the package
+  * **access_rights_type** - the access rights type, must be one of "Open", "Conditional" or "Restricted"
 * Optional POST parameters:
   * **description** - a description of the package
   * **tag_names** - a quoted, comma separated list of tags to apply to the package, must be from the set of legal tag names
   * **label_names** - a quoted, comma separated list of labels to apply to the package
-  * **access_rights_type** - the access rights type, must be one of "Open", "Conditional" or "Restricted". (defaults to "Open")
+  * **grant_numbers** - a quoted, comma separated list of grant numbers to apply to the package
+  * **related_websites** - a quoted, comma separated list of related websites to apply to the package
   * **start_time** - the start time to use. Must be in the format 'yyyy-mm-dd hh:mm:ss'
   * **end_time** - the end time to use. Must be in the format 'yyyy-mm-dd hh:mm:ss'
   * **run_in_background** - use "false" if the package should be built in the foreground. (defaults to "true")
