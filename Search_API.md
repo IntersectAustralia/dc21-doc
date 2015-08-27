@@ -20,12 +20,14 @@ Authentication is done by including your API token into post parameters. API tok
   * **id** - This is "ID" in search box of WEB UI: `"id"=>"26"`
   * **stati** - This is "Type" in search box of WEB UI: `"stati"=>["RAW", "CLEANSED"]`
   * **automation_stati** - This is "Automation Status" in search box of WEB UI, `"automation_stati"=>["COMPLETE", "WORKING"]`
+  * **access_rights_types** - This is the "Access Rights Type" in the search box of the WEB UI: `"access_rights_types"=>["Open", "Conditional", "Restricted"]`
   * **file_formats** - This is "File Formats" in search box of WEB UI, `"file_formats"=>["TOA5", "Unknown", "audio/mpeg"]`
   * **published** - This is "Type->PACKAGE->Published" in search box of WEB UI: `"stati"=>["PACKAGE"], "published"=>["true"]`.
   * **unpublished** - This is "Type->PACKAGE->Published" in search box of WEB UI: `"stati"=>["PACKAGE"],  "unpublished"=>["true"]`.
   * **published_date** - This is "Type->PACKAGE->Published Date" in search box of WEB UI: `"stati"=>["PACKAGE"], "published_date"=>"2013-01-01"`
   * **tags** - This is "Tags" in search box of WEB UI: `"tags"=>["4", "5"]`
   * **labels** - This is "Labels" in search box of WEB UI, `"labels"=>["label_name_1", "label_name_2"]`
+  * **grant_numbers** - This is the "Grant Numbers" in search box of WEB UI, `"grant_numbers"=>["grant_number_1", "grant_number_2"]`
   * **facilities** - This is "Facility" in search box of WEB UI, ask system administrator to get facility ids : `"facilities"=>["27"]`
   * **experiments** - This is "Facility" in search box of WEB UI, when one facility is clicked, experiments of this facility are selectable, ask system administrator to get experiment ids: `"experiments"=>["58", "54"]`
   * **variables** - This is "Columns" in search box of WEB UI, when one group is clicked, columns of this group are selectable: `"variables"=>["SoilTempProbe_Avg(1)", "SoilTempProbe_Avg(3)"]`
