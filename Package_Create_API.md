@@ -22,7 +22,8 @@ Authentication is done by adding your API token to the URL. API tokens can only 
   * **related_websites** - a quoted, comma separated list of related websites to apply to the package
   * **start_time** - the start time to use. Must be in the format 'yyyy-mm-dd hh:mm:ss'
   * **end_time** - the end time to use. Must be in the format 'yyyy-mm-dd hh:mm:ss'
-  * **run_in_background** - use "false" if the package should be built in the foreground. (defaults to "true")
+  * **run_in_background** - use "false" if the package should be built in the foreground (defaults to "true")
+  * **force** - use "true" to allow including error files or incomplete packages in package creating. (defaults to "false")
 
 ### Response
 The result is reported back via a combination of the HTTP response code, and a JSON body.
