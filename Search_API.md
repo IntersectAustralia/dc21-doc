@@ -28,6 +28,7 @@ Authentication is done by including your API token into post parameters. API tok
   * **tags** - This is "Tags" in search box of WEB UI: `"tags"=>["4", "5"]`
   * **labels** - This is "Labels" in search box of WEB UI, `"labels"=>["label_name_1", "label_name_2"]`
   * **grant_numbers** - This is the "Grant Numbers" in search box of WEB UI, `"grant_numbers"=>["grant_number_1", "grant_number_2"]`
+  * **related_websites** - This is the "Related Websites" in the search box of WEB UI, `"related_websites"=>["http://www.intersect.org.au"]`
   * **facilities** - This is "Facility" in search box of WEB UI, ask system administrator to get facility ids : `"facilities"=>["27"]`
   * **experiments** - This is "Facility" in search box of WEB UI, when one facility is clicked, experiments of this facility are selectable, ask system administrator to get experiment ids: `"experiments"=>["58", "54"]`
   * **variables** - This is "Columns" in search box of WEB UI, when one group is clicked, columns of this group are selectable: `"variables"=>["SoilTempProbe_Avg(1)", "SoilTempProbe_Avg(3)"]`
