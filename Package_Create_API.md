@@ -16,6 +16,7 @@ Authentication is done by adding your API token to the URL. API tokens can only 
   * **access_rights_type** - the access rights type, must be one of "Open", "Conditional" or "Restricted"
 * Optional POST parameters:
   * **description** - a description of the package
+  * **license** - the license, must be one of "CC-BY", "CC-BY-SA", "CC-BY-ND", "CC-BY-NC", "CC-BY-NC-SA", "CC-BY-NC-ND" or "All rights reserved"
   * **tag_names** - a quoted, comma separated list of tags to apply to the package, must be from the set of legal tag names
   * **label_names** - a quoted, comma separated list of labels to apply to the package
   * **grant_numbers** - a quoted, comma separated list of grant numbers to apply to the package
