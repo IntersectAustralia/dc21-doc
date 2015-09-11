@@ -49,8 +49,16 @@ The result is reported back via a combination of the HTTP response code, and a J
  <tr>
   <td>Valid authentication token supplied but user does not
   have permissions to update</td>
-  <td></td>
-  <td></td>
+  <td>400</td>
+  <td>json hash e.g.<br>
+      <div class="hightlight">
+      <pre>
+        {
+          "messages":[array_of_messages]
+        }
+      </pre>
+      </div>
+  </td>
  </tr>
  <tr>
   <td>Invalid input - any combination of the
