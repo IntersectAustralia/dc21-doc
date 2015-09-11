@@ -33,6 +33,7 @@ Please feel free to browse any of the following documentation.
 * [Domain Model](Domain_Model.md) - overview of the domain concepts in the system.
 * [RIFCS Mapping](RIFCS_Mapping.md) - details of the RIFCS records produced by the system.
 * [File Upload API](File_Upload_API.md) - details of the API for automatically uploading/downloading files
+* [File Update API](File_Update_API.md) - details of the API for updating metadata of data files
 * [Search API](Search_API.md) - details of the API for scripting search
 * [Package Create API](Package_Create_API.md) - details of the API for creating packages
 * [Package Publish API](Package_Publish_API.md) - details of the API for publishing packages
