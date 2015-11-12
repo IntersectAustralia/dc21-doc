@@ -1,7 +1,7 @@
 # Variable List API
 
 ## Variable List
-Current DIVER variables and column mappings can be extracted using this API. Construct a post request as per the details below.
+DIVER variables from uploaded TOA5, NETCDF and NCML files plus column mappings can be extracted using this API. To use this API, construct a post request as per the details below.
 
 Authentication is done by including your API token into post parameters. API tokens can only be used for API actions. You can obtain an API token by clicking on your email address, the "Settings" at the top right of the DC21 application.
 
@@ -96,6 +96,3 @@ Example:
 {"created_at":"2015-11-09T11:57:31+11:00","data_file_id":47,"data_type":null,"fill_value":null,"id":138,"name":"levels","position":2,"unit":"m","updated_at":"2015-11-09T11:57:31+11:00"},
 {"created_at":"2015-11-09T12:26:16+11:00","data_file_id":57,"data_type":"Avg","fill_value":null,"id":215,"name":"VW_Avg(1)","position":2,"unit":"","updated_at":"2015-11-09T12:26:16+11:00"},
 {"created_at":"2015-11-09T14:44:08+11:00","data_file_id":67,"data_type":"Avg","fill_value":null,"id":902,"name":"VW_Avg(1)","position":2,"unit":"","updated_at":"2015-11-09T14:44:08+11:00"}]
-
-
-
