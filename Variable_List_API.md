@@ -78,7 +78,7 @@ The command line options used here:
 
 Other options and arguments please refer to manpage of curl(1)
 
-### Structure of the JSON Body
+### Structure of the returned JSON Body
 If the API call is successful, a JSON object will be returned. This will consist of a list of dictionaries with each dictionary representing a single variable. Each variable will have the following entries:
 - created_at: the date/time when the variable's description was created in DIVER
 - date_file_id : the host file ID
@@ -88,7 +88,7 @@ If the API call is successful, a JSON object will be returned. This will consist
 - name : the variable's name, eg: latitude
 - position : an integer showing the column # of the variable within the host file
 - unit : the unit of the variable, eg: m, degrees_North
-- updated_at: the date/time when the variable's description was last updated in DIVER
+- updated_at : the date/time when the variable's description was last updated in DIVER
 
 ### Sample JSON Output
 [{"created_at":"2015-11-09T12:17:40+11:00","data_file_id":53,"data_type":null,"fill_value":null,"id":170,"name":"latitude","position":1,"unit":"degrees_north","updated_at":"2015-11-09T12:17:40+11:00"},
