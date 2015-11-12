@@ -42,7 +42,7 @@ Contact Intersect to determine which versions are currently supported.
 * [RIFCS Mapping](RIFCS_Mapping.md) - details of the RIFCS records produced by the system.
 * [File Upload API](File_Upload_API.md) - details of the API for automatically uploading/downloading files
 * [File Update API](File_Update_API.md) - details of the API for updating metadata of data files (version 2.3 onwards)
-* [Org Structure API](Org_structure_API.md) - details of the API to extract the DIVER organisational structure (version 2.2 onwards)
+* [Org Structure List API](Org_structure_list_API.md) - details of the API to extract the DIVER organisational structure (version 2.2 onwards)
 * [Search API](Search_API.md) - details of the API for scripting search
 * [Package Create API](Package_Create_API.md) - details of the API for creating packages (version 2.3 onwards)
 * [Package Publish API](Package_Publish_API.md) - details of the API for publishing packages (version 2.3 onwards)
