@@ -6,6 +6,12 @@ DIVER (Data Is Vital for Empirical Research) is a general purpose, user-friendly
 
 DIVER  is a Ruby on Rails (3.2) application for the management of environmental data, predominantly time-series from Campbell Scientific Loggers, but also for NETCDF, NCML format data and any general purpose data.
 
+### Launching an instance of DIVER on the NeCTAR Research Cloud
+[Here](http://www.intersect.org.au/content/launchpod) is a description of how to launch a trial instance of DIVER on the NeCTAR research cloud using Intersect's Launchpod.
+
+### Licence Information
+The DIVER code is licensed under the GNU GPL v3 license - see [LICENSE.txt](https://github.com/IntersectAustralia/dc21/blob/master/LICENSE.txt).
+
 ### Versions
 The following provides links to the respective repositories for each version.
 The version documents contain the release notes and the user manual.
@@ -43,3 +49,6 @@ The version documents contain the release notes and the user manual.
 * RSpec tests - the RSpec examples express the detailed requirements so are a good place to start getting an understanding of what the system does.  There's a number of different ways to access them:
   * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/2.0.01/spec).
   * Clone the [repository](https://github.com/IntersectAustralia/dc21) and browse in your preferred tool.
+
+### Acknowledgements
+DIVER software development has been funded by the Australian National Data Service (ANDS, http://ands.org.au), Western Sydney University, Macquarie University and Intersect. ANDS is supported by the Australian Government through the National Collaborative Research Infrastructure Strategy Program (NCRIS) and the Education Investment Fund (EIF) Super Science Initiative.
