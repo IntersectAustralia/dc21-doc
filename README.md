@@ -1,5 +1,7 @@
 ### DIVER
-This is the documentation repository for DIVER.  
+This is the documentation repository for the DIVER software application. DIVER consists of a number of source code repositories, the prinary of which is [dc21](https://github.com/IntersectAustralia/dc21). Respoisoties accosiated with each version of DIVER are show in the Version table below.
+
+### About DIVER
 DIVER (Data Is Vital for Empirical Research) is a general purpose, user-friendly research data capture and sharing application. DIVER was originally developed by [Intersect Australia](http://www.intersect.org.au/) for the [Hawkesbury Institute for the Environment](http://www.westernsydney.edu.au/hie) at the [Western Sydney Unversity](http://www.westernsydney.edu.au/) as part of [ANDS](http://www.ands.org.au/) Data Capture Project [DC21] (https://projects.ands.org.au/id/DC21) in 2012/2013.
 
 DIVER  is a Ruby on Rails (3.2) application for the management of environmental data, predominantly time-series from Campbell Scientific Loggers, but also for NETCDF, NCML format data and any general purpose data.
