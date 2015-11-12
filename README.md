@@ -9,14 +9,13 @@ DIVER  is a Ruby on Rails (3.2) application for the management of environmental 
 ### Versions
 The following provides links to the respective repositories for each version.
 The version documents contain the release notes and the user manual.
-Please feel free to browse any of the following documentation.
 
-| Version | Date | Repo Links |  Version Documents |
-| --- | :-- | :-- | :-- | :-- | :-- |
-| 2.2 | Jun 2015 | [App](https://github.com/IntersectAustralia/dc21/tree/2.2), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.2/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02) | [ReleaseNotes](files/DC21 v2.1.02 ReleaseNotes.pdf?raw=true), [UserManual](files/DC21 v2.1.02 UserManual.pdf?raw=true)|
-| 2.1.02 | Jun 2014 | [App](https://github.com/IntersectAustralia/dc21/tree/2.1.02), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.1.02/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02) | [DC21 v2.1.02 ReleaseNotes.pdf](files/DC21 v2.1.02 ReleaseNotes.pdf?raw=true), [DC21 v2.1.02 UserManual.pdf](files/DC21 v2.1.02 UserManual.pdf?raw=true)|
-| 2.0.01 | Dec 2013 | [App](https://github.com/IntersectAustralia/dc21/tree/2.0.01),  [Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.0.01/README.md),  [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.0.01), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.0.01) | [DC21_v2.0.01_DocFiles.zip](files/DC21_v2.0.01_DocFiles.zip?raw=true) |
-| 1.9.04 | Mar 2012 | [App](https://github.com/IntersectAustralia/dc21/tree/1.9.04), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/1.9.04/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/1.9.04), | [DC21v1.9.04DocFiles.zip](files/HIEv_v1.9.04DocFiles.zip?raw=true)
+| Version | Date | Repo Links |  Version Documents | Summary |
+| --- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 2.2 | Jun 2015 | [App](https://github.com/IntersectAustralia/dc21/tree/2.2), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.2/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02) | [ReleaseNotes](files/DC21 v2.1.02 ReleaseNotes.pdf?raw=true), [UserManual](files/DC21 v2.1.02 UserManual.pdf?raw=true)| NETCDF support and Python Wrapper
+| 2.1.02 | Jun 2014 | [App](https://github.com/IntersectAustralia/dc21/tree/2.1.02), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.1.02/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02) | [DC21 v2.1.02 ReleaseNotes.pdf](files/DC21 v2.1.02 ReleaseNotes.pdf?raw=true), [DC21 v2.1.02 UserManual.pdf](files/DC21 v2.1.02 UserManual.pdf?raw=true)| Access Control |
+| 2.0.01 | Dec 2013 | [App](https://github.com/IntersectAustralia/dc21/tree/2.0.01),  [Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.0.01/README.md),  [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.0.01), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.0.01) | [DC21_v2.0.01_DocFiles.zip](files/DC21_v2.0.01_DocFiles.zip?raw=true) | Org Structure and Tags |
+| 1.9.04 | Mar 2012 | [App](https://github.com/IntersectAustralia/dc21/tree/1.9.04), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/1.9.04/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/1.9.04), | [DC21v1.9.04DocFiles.zip](files/HIEv_v1.9.04DocFiles.zip?raw=true) | Packaging and Publishing
 
 
 ### For everyone:
