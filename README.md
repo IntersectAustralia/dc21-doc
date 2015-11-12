@@ -13,8 +13,7 @@ DIVER  is a Ruby on Rails (3.2) application for the management of environmental 
 The DIVER code is licensed under the GNU GPL v3 license - see [LICENSE.txt](https://github.com/IntersectAustralia/dc21/blob/master/LICENSE.txt).
 
 ### Versions
-The following provides links to the respective repositories for each version.
-The version documents contain the release notes and the user manual.
+Contact Intersect to determine which versions are currently supported.
 
 | Version | Date | Repo Links |  Version Documents | Summary |
 | --- | :-- | :-- | :-- | :-- | :-- | :-- |
