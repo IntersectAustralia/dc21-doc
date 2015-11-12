@@ -1,6 +1,6 @@
-# Org Structure API
+# Org Structure List API
 
-## Org Structure
+## Org Structure List
 This API allows the caller to extract the Level 1 and Level 2 organisational structure (typically facilities and experiments) from DIVER. To use this API, construct a post request as per the details below.
 
 Authentication is done by including your API token into post parameters. API tokens can only be used for API actions. You can obtain an API token by clicking on your email address, the "Settings" at the top right of the DC21 application.
