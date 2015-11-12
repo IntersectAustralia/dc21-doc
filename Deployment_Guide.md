@@ -11,11 +11,11 @@ The _server_ machine is the production server where the web application will run
 As you proceed through the instructions you will create and set passwords for a number of accounts (both Linux and Postgres). Make sure you keep track the users you have created and their passwords.
 
 ## First Time Build
-You should read the [release notes](README.md#version-documentation) before installing.
+Before installing, you should read the [release notes](README.md#version-documentation) for the version you are installing.
 * [Deployment Guide : First Time Server Build](Deployment_Guide_-_First_Time_Server_Build.md) - instructions for building a new instance of the DC21 web application.
 
 ## Updating
-You should read the [release notes](README.md#version-documentation) before installing.
+Before installing, you should read the [release notes](README.md#version-documentation) for the version you are installing.
 * [Deployment Guide : Deploying A New Version](Deployment_Guide_-_Deploying_A_New_Version.md) - instructions for updating an installed instance with a new version of the web application.
 
 ## Smoke Tests
