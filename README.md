@@ -1,6 +1,7 @@
-The DC21 application is a Ruby on Rails application built by [Intersect Australia](http://www.intersect.org.au/) for the [Hawkesbury Institute for the Environment]( http://www.uws.edu.au/hie/hie) as part of an [ANDS-Funded Data Capture Project - DC21 - Climate Change and Energy Research Facilities](http://projects.ands.org.au/id/DC21).
+**DIVER**  
+DIVER (Data Is Vital for Empirical Research) is a general purpose, user-friendly research data capture and sharing application. DIVER was originally developed by [Intersect Australia](http://www.intersect.org.au/) for the [Hawkesbury Institute for the Environment](http://www.westernsydney.edu.au/hie) at the [Western Sydney Unversity](http://www.westernsydney.edu.au/) as part of [ANDS](http://www.ands.org.au/) Data Capture Project [DC21] (https://projects.ands.org.au/id/DC21) in 2012/2013.
 
-The name 'DC21' corresponds to the ANDS project code under which the application was developed. in 2014, Intersect rebranded the application DIVER (Data is Vital for Emperical Research).
+DIVER  is a Ruby on Rails (3.2) application for the management of environmental data, predominantly time-series from Campbell Scientific Loggers, but also for NETCDF, NCML format data and any general purpose data.
 
 ### Versions
 The following provides links to the respective repositories for each version.
