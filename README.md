@@ -25,7 +25,7 @@ Contact Intersect to determine which versions are currently supported.
 
 ### For everyone:
 * [Product Overview](Product_Overview.md)
-* Cucumber Features - these are our automated acceptance tests, and they express (in plain English) the requirements of the system. This is a great place to start if you want to get an understanding of what the system does. There's a number of different ways to access them:
+* Cucumber Features - these are automated acceptance tests that express (in plain English) the requirements of the system. Apart from the User Manual and Release Notes, this is a great place to start if you want to get an understanding of what the system does. There's a number of different ways to access them:
   * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/2.0.01/features).
   * Clone the [repository](https://github.com/IntersectAustralia/dc21/) and browse in your preferred tool.
 * [Overview Diagram](Overview_Diagram.md)
