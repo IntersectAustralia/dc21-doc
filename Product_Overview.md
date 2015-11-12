@@ -1,13 +1,14 @@
 # Product Overview
 
-The DC21 HIE Climate Change and Energy Research Data Capture Project supports the Cell to Ecosystem-focused Climate Change and Energy Research Facilities (CCERF) at the UWS Hawkesbury campus.
+The DIVER app supports the Cell to Ecosystem-focused Climate Change and Energy Research Facilities (CCERF) at the UWS Hawkesbury campus.
 
 The software provides a means for capture and long term storage of data and meta-data from various instruments. The software is not specific to any instruments, but does do special processing on TOA5 files from Campbell Scientific Loggers. It is designed to provide rich functionality around time-series data, as well as the ability to store and organise other types of files.
 
-Initially, the software will be used to manage data from the following sites:
+Initially, the software was developed to manage data from the following three sites:
 - Eddy Flux Tower – which collects meteorological and flux data from within an isolated forest environment.
 - Whole tree chambers – which collect meteorological data of the environmental impact on a tree wholly encapsulated within the chamber.
-- Weather station – which collects meteorological data where positioned.
+- Weather station – which collects meteorological data where positioned.  
+ As of November 2015, this has been expanded to 9 sites inculding data from the HIE EucFace site, Glasshouse data and longitudinal field-based image capture of flora.
 
 ## Key features are:
 - API to accept automatic ingest from datalogger PCs.
@@ -17,6 +18,7 @@ Initially, the software will be used to manage data from the following sites:
 - Management of information about experiments and facilities, and linking them to uploaded data.
 - Advanced search, including search for time-series data based on dates.
 - Custom download for time-series data which trims time-series files down to requested dates.
+- Data packaging and publishing capability
 - RIF-CS feed with accompanying data zip bundle for harvesting by UWS library and eventual delivery to Research Data Australia.
 - User management and provisioning plus permissions to control access to data.
 
