@@ -54,7 +54,7 @@ We highly recommend the [rest-client](https://github.com/rest-client/rest-client
 
 require 'rest_client'
 
-url = "http://<host:port>/data_files/org_structure_list" # Please change the host:port part!
+url = "http://<host:port>/data_files/facility_and_experiment_list" # Please change the host:port part!
 params = {"auth_token"=>"RQdasxNyCdzzZoNGfPvw"} # Generate your own token and paste here
 response = RestClient.post(url, params)
 
