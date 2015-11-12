@@ -79,19 +79,9 @@ The command line options used here:
 Other options and arguments please refer to manpage of curl(1)
 
 ### Structure of the JSON Body
-If the API call is successful, a JSON object will be returned. This will consist of a list of dictionaries with each dictionary representing a single variable. Each variable will have the following entries:
-- created_at: the date/time when the variable's description was created in DIVER
-- date_file_id : the host file ID
-- data_type : the type of data eg: Avg
-- fill_value : the value that should be displayed for the variable if it is null
-- id : the variable's unique identifier within DIVER
-- name : the variable's name, eg: latitude
-- position : an integer showing the column # of the variable within the host file
-- unit : the unit of the variable, eg: m, degrees_North
-- updated_at : the date/time when the variable's description was last updated in DIVER
+If the API call is successful, a JSON object will be returned. This will consist of a list of dictionaries, one for each level 1 org strcutre (facility) in the system. For each facilty, its name, id and list of child level 2 orgs (experiments) will be returned. Within each level 2 org structure (experiment), its name and id will be returned.
 
 ### Sample JSON Output
-[{"created_at":"2015-11-09T12:17:40+11:00","data_file_id":53,"data_type":null,"fill_value":null,"id":170,"name":"latitude","position":1,"unit":"degrees_north","updated_at":"2015-11-09T12:17:40+11:00"},
-{"created_at":"2015-11-09T11:57:31+11:00","data_file_id":47,"data_type":null,"fill_value":null,"id":138,"name":"levels","position":2,"unit":"m","updated_at":"2015-11-09T11:57:31+11:00"},
-{"created_at":"2015-11-09T12:26:16+11:00","data_file_id":57,"data_type":"Avg","fill_value":null,"id":215,"name":"VW_Avg(1)","position":2,"unit":"","updated_at":"2015-11-09T12:26:16+11:00"},
-{"created_at":"2015-11-09T14:44:08+11:00","data_file_id":67,"data_type":"Avg","fill_value":null,"id":902,"name":"VW_Avg(1)","position":2,"unit":"","updated_at":"2015-11-09T14:44:08+11:00"}]
+[{"facility_id":3,"facility_name":"Other","experiments":[{"id":6,"name":"Other"}]},
+{"facility_id":1,"facility_name":"Rainout Shelter Weather Station","experiments":[{"id":1,"name":"The Rain Experiment"},{"id":2,"name":"The Wind Experiment"}]},
+{"facility_id":2,"facility_name":"Test Facility","experiments":[{"id":3,"name":"Test Experiment 1"},{"id":4,"name":"Test Experiment 2"},{"id":5,"name":"Test Experiment 3"}]}]
