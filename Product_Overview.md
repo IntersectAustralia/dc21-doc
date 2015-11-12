@@ -18,9 +18,14 @@ Initially, the software was developed to manage data from the following three si
 - Management of information about experiments and facilities, and linking them to uploaded data.
 - Advanced search, including search for time-series data based on dates.
 - Custom download for time-series data which trims time-series files down to requested dates.
-- Data packaging and publishing capability
+- Data packaging and publishing capability.
 - RIF-CS feed with accompanying data zip bundle for harvesting by UWS library and eventual delivery to Research Data Australia.
 - User management and provisioning plus permissions to control access to data.
+- Support for data uploaded from Campbell Scientific data loggers in TOA5 format.
+- Support for NETCDF and NCML file formts.
+- Extraction of EXIF data from image files.
+- Auto-detection of file MIME types.
+- Auto OCR and speech recognition functions.
 
 ## Problem statement:
 
