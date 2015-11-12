@@ -80,15 +80,15 @@ Other options and arguments please refer to manpage of curl(1)
 
 ## JSON BODY
 
-If the API call is successful, a JSON object will be returned. THis will consist of a list of dictionaries with each dictionary representing a single variable. Each variable will have the following entries:
+If the API call is successful, a JSON object will be returned. This will consist of a list of dictionaries with each dictionary representing a single variable. Each variable will have the following entries:
 - created_at: the date/time when the variable's description was created in DIVER
-- date_file_id: the host file ID
-- data_type: 
-- fill_value: 
-- id: the variable's unique identifier within DIVER
-- name: the variable's name, eg: latitude
-- position: an integer showing the column # of the variable within the host file
-- unit: the unit of the variable, eg: m, degrees_North
+- date_file_id : the host file ID
+- data_type : the type of data eg: Avg
+- fill_value : the value that should be displayed for the variable if it is null
+- id : the variable's unique identifier within DIVER
+- name : the variable's name, eg: latitude
+- position : an integer showing the column # of the variable within the host file
+- unit : the unit of the variable, eg: m, degrees_North
 - updated_at: the date/time when the variable's description was last updated in DIVER
 
 Example:  
