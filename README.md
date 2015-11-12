@@ -40,13 +40,13 @@ Contact Intersect to determine which versions are currently supported.
   * [Development Environment Setup](Development_Environment_Setup.md) - instructions for setting up a dev environment.
 * [Domain Model](Domain_Model.md) - overview of the domain concepts in the system.
 * [RIFCS Mapping](RIFCS_Mapping.md) - details of the RIFCS records produced by the system.
-* [Columns API](Columns_API.md) - details of the API to extract DIVER column mappings and variables (version 2.2 onwards)
 * [File Upload API](File_Upload_API.md) - details of the API for automatically uploading/downloading files
 * [File Update API](File_Update_API.md) - details of the API for updating metadata of data files (version 2.3 onwards)
 * [Org Structure API](Org_structure_API.md) - details of the API to extract the DIVER organisational structure (version 2.2 onwards)
 * [Search API](Search_API.md) - details of the API for scripting search
 * [Package Create API](Package_Create_API.md) - details of the API for creating packages (version 2.3 onwards)
 * [Package Publish API](Package_Publish_API.md) - details of the API for publishing packages (version 2.3 onwards)
+* [Variable List API](Variable_List_API.md) - details of the API to extract DIVER column mappings and variables (version 2.2 onwards)
 * RSpec tests - the RSpec examples express the detailed requirements so are a good place to start getting an understanding of what the system does.  There's a number of different ways to access them:
   * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/2.0.01/spec).
   * Clone the [repository](https://github.com/IntersectAustralia/dc21) and browse in your preferred tool.
