@@ -1,7 +1,7 @@
-# Search API
+# Columns API
 
-## Search
-Search can be performed via the API. Construct a post request with the required search criteria parameters, as per the details below.
+## Columns
+Current DIVER column mappings can be extracted using this API. Construct a post request as per the details below.
 
 Authentication is done by including your API token into post parameters. API tokens can only be used for API actions. You can obtain an API token by clicking on your email address, the "Settings" at the top right of the DC21 application.
 
