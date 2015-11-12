@@ -1,5 +1,5 @@
 ### DIVER
-This is the documentation repository for the DIVER software application. DIVER consists of a number of source code repositories, the prinary of which is [dc21](https://github.com/IntersectAustralia/dc21). Respoisoties accosiated with each version of DIVER are show in the Version table below.
+This is the documentation repository for the DIVER software application. DIVER consists of a number of source code repositories, the primary repo is [dc21](https://github.com/IntersectAustralia/dc21). Respoisoties associated with each version of DIVER are listed  in the Version table below.
 
 ### About DIVER
 DIVER (Data Is Vital for Empirical Research) is a general purpose, user-friendly research data capture and sharing application. DIVER was originally developed by [Intersect Australia](http://www.intersect.org.au/) for the [Hawkesbury Institute for the Environment](http://www.westernsydney.edu.au/hie) at the [Western Sydney Unversity](http://www.westernsydney.edu.au/) as part of [ANDS](http://www.ands.org.au/) Data Capture Project [DC21] (https://projects.ands.org.au/id/DC21) in 2012/2013.
@@ -11,13 +11,12 @@ The following provides links to the respective repositories for each version.
 The version documents contain the release notes and the user manual.
 Please feel free to browse any of the following documentation.
 
-| Version | Links |  Version Documents |
+| Version | Date | Repo Links |  Version Documents |
 | --- | :-- | :-- | :-- | :-- | :-- |
-| 2.1.02 | [Web app](https://github.com/IntersectAustralia/dc21/tree/2.1.02) <br> [ Wiki Guide](https://github.com/IntersectAustralia/dc21-doc/tree/2.1.02/README.md)  <br> [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02)  <br> [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02) | [DC21 v2.1.02 ReleaseNotes.pdf](files/DC21 v2.1.02 ReleaseNotes.pdf?raw=true) <br> [DC21 v2.1.02 UserManual.pdf](files/DC21 v2.1.02 UserManual.pdf?raw=true)|
-| 2.0.01 | [Web app](https://github.com/IntersectAustralia/dc21/tree/2.0.01) <br> [ Wiki Guide](https://github.com/IntersectAustralia/dc21-doc/tree/2.0.01/README.md)  <br> [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.0.01)  <br> [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.0.01) | [DC21_v2.0.01_DocFiles.zip](files/DC21_v2.0.01_DocFiles.zip?raw=true) |
-| 1.9.04 | [Web app](https://github.com/IntersectAustralia/dc21/tree/1.9.04) <br> [ Wiki Guide](https://github.com/IntersectAustralia/dc21-doc/tree/1.9.04/README.md)  <br> [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/1.9.04)  <br> | [DC21v1.9.04DocFiles.zip](files/HIEv_v1.9.04DocFiles.zip?raw=true) |
-| 1.8.02 | [Web app](https://github.com/IntersectAustralia/dc21/tree/1.8.02) <br> [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/1.8.02) | [DC21v1.8.02DocFiles.zip](files/HIEvv1.8.02DocFiles.zip?raw=true) |
-| 1.6b.03 | [Web app](https://github.com/IntersectAustralia/dc21/tree/1.6b.03) <br> [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/1.6b.03) | [DC21v1.6b.03DocFiles.zip](files/DC21v1.6b.03DocFiles.zip?raw=true) |
+| 2.1.02 | Jun 2014 | [App](https://github.com/IntersectAustralia/dc21/tree/2.1.02) <br> [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.1.02/README.md)  <br> [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02)  <br> [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02) | [DC21 v2.1.02 ReleaseNotes.pdf](files/DC21 v2.1.02 ReleaseNotes.pdf?raw=true) <br> [DC21 v2.1.02 UserManual.pdf](files/DC21 v2.1.02 UserManual.pdf?raw=true)|
+| 2.0.01 | Dec 2013 | [App](https://github.com/IntersectAustralia/dc21/tree/2.0.01) <br> [Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.0.01/README.md)  <br> [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.0.01)  <br> [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.0.01) | [DC21_v2.0.01_DocFiles.zip](files/DC21_v2.0.01_DocFiles.zip?raw=true) |
+| 1.9.04 | Mar 2012 | [App](https://github.com/IntersectAustralia/dc21/tree/1.9.04) <br> [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/1.9.04/README.md)  <br> [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/1.9.04)  <br> | [DC21v1.9.04DocFiles.zip](files/HIEv_v1.9.04DocFiles.zip?raw=true)
+
 
 ### For everyone:
 * [Product Overview](Product_Overview.md)
