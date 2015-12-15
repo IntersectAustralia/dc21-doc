@@ -17,6 +17,7 @@ Contact Intersect to determine which versions are currently supported.
 
 | Version | Date | Repo Links |  Version Documents | Summary |
 | --- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 2.3 | Nov 2015 | [App](https://github.com/IntersectAustralia/dc21/tree/2.3.02), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.3/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02), [Python Wrapper](https://github.com/IntersectAustralia/divermodc) | [UserManual.pdf](files/DIVER v2.3 UserManual.pdf?raw=true)| API support for creating and publishing packages, and enriched RIF-CS support.
 | 2.2 | Jun 2015 | [App](https://github.com/IntersectAustralia/dc21/tree/2.2), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.2/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02), [Python Wrapper](https://github.com/IntersectAustralia/divermodc) | [UserManual.pdf](files/DIVER v2.2 UserManual.pdf?raw=true)| NETCDF support and Python Wrapper
 | 2.1.02 | Jun 2014 | [App](https://github.com/IntersectAustralia/dc21/tree/2.1.02), [ Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.1.02/README.md), [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.1.02), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.1.02) | [ReleaseNotes.pdf](files/DC21 v2.1.02 ReleaseNotes.pdf?raw=true), [UserManual.pdf](files/DC21 v2.1.02 UserManual.pdf?raw=true)| Access Control |
 | 2.0.01 | Dec 2013 | [App](https://github.com/IntersectAustralia/dc21/tree/2.0.01),  [Doc](https://github.com/IntersectAustralia/dc21-doc/tree/2.0.01/README.md),  [RESTful API uploader](https://github.com/IntersectAustralia/restful-api-uploader/tree/2.0.01), [EyeTracker Packager](https://github.com/IntersectAustralia/dc21-eyetracker-packager/tree/2.0.01) | [DocFiles.zip](files/DC21_v2.0.01_DocFiles.zip?raw=true) | Org Structure and Tags |
@@ -26,7 +27,7 @@ Contact Intersect to determine which versions are currently supported.
 ### For everyone:
 * [Product Overview](Product_Overview.md)
 * Cucumber Features - these are automated acceptance tests that express (in plain English) the requirements of the system. Apart from the User Manual and Release Notes, this is a great place to start if you want to get an understanding of what the system does. There's a number of different ways to access them:
-  * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/2.0.01/features).
+  * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/2.3.02/features).
   * Clone the [repository](https://github.com/IntersectAustralia/dc21/) and browse in your preferred tool.
 * [Overview Diagram](Overview_Diagram.md)
 
@@ -48,7 +49,7 @@ Contact Intersect to determine which versions are currently supported.
 * [Package Publish API](Package_Publish_API.md) - details of the API for publishing packages (version 2.3 onwards)
 * [Variable List API](Variable_List_API.md) - details of the API to extract DIVER column mappings and variables (version 2.2 onwards)
 * RSpec tests - the RSpec examples express the detailed requirements so are a good place to start getting an understanding of what the system does.  There's a number of different ways to access them:
-  * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/2.0.01/spec).
+  * [Browse on Github](https://github.com/IntersectAustralia/dc21/tree/2.3.02/spec).
   * Clone the [repository](https://github.com/IntersectAustralia/dc21) and browse in your preferred tool.
 
 ### Acknowledgements
