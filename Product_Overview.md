@@ -12,6 +12,7 @@ Initially, the software was developed to manage data from the following three si
 
 ## Key features are:
 - API to accept automatic ingest from datalogger PCs.
+- API to allow programatic creation and publishing of packages.
 - Manual upload for processed/auxiliary data.
 - Automatic detection and handling of overlapping time-series data.
 - Automatic extraction of metadata from time-series files.
