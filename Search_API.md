@@ -27,6 +27,8 @@ Authentication is done by including your API token into post parameters. API tok
   * **published_date** - This is "Type->PACKAGE->Published Date" in search box of WEB UI: `"stati"=>["PACKAGE"], "published_date"=>"2013-01-01"`
   * **tags** - This is "Tags" in search box of WEB UI: `"tags"=>["4", "5"]`
   * **labels** - This is "Labels" in search box of WEB UI, `"labels"=>["label_name_1", "label_name_2"]`
+  * **creators** - This is "Creators" in search box of WEB UI, `"creators"=>["creator1@example.com", "creator2@example.com"]`
+  * **contributors** - This is "Contributors" in search box of WEB UI, `"contributors"=>["contributor_name_1", "contributor_name_2"]`
   * **grant_numbers** - This is the "Grant Numbers" in search box of WEB UI, `"grant_numbers"=>["grant_number_1", "grant_number_2"]`
   * **related_websites** - This is the "Related Websites" in the search box of WEB UI, `"related_websites"=>["http://www.intersect.org.au"]`
   * **facilities** - This is "Facility" in search box of WEB UI, ask system administrator to get facility ids : `"facilities"=>["27"]`

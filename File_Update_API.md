@@ -17,6 +17,8 @@ Authentication is done by adding your API token to the URL. API tokens can only 
   * **tag_names** - a quoted, comma separated list of tags to apply to the file, must be from the set of legal tag names
   * **parent_filenames** - an array of parent file names, which must exist on the server prior to update
   * **label_names** - a quoted, comma separated list of labels to apply to the file
+  * **creator_email** - a string of creator's email to apply to the file, must be from the email list of approved users
+  * **contributor_names** - a string array of contributors to apply to the file
   * **title** - the title of the package
   * **grant_numbers** - a quoted, comma separated list of grant numbers to apply to the package
   * **related_websites** - a quoted, comma separated list of related websites to apply to the package

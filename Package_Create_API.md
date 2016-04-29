@@ -19,6 +19,8 @@ Authentication is done by adding your API token to the URL. API tokens can only 
   * **license** - the license, must be one of "CC-BY", "CC-BY-SA", "CC-BY-ND", "CC-BY-NC", "CC-BY-NC-SA", "CC-BY-NC-ND" or "All rights reserved"
   * **tag_names** - a quoted, comma separated list of tags to apply to the package, must be from the set of legal tag names
   * **label_names** - a quoted, comma separated list of labels to apply to the package
+  * **creator_email** - a string of creator's email to apply to the package, must be from the email list of approved users 
+  * **contributor_names** - a string array of contributors to apply to the package 
   * **grant_numbers** - a quoted, comma separated list of grant numbers to apply to the package
   * **related_websites** - a quoted, comma separated list of related websites to apply to the package
   * **start_time** - the start time to use. Must be in the format 'yyyy-mm-dd hh:mm:ss'
