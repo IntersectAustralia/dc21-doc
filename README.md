@@ -1,4 +1,4 @@
-### HIEv/ DIVER
+### HIEv / DIVER
 This is the documentation repository for the DIVER automated research data captures application. DIVER consists of a number of source code repositories, the primary repo is [dc21](https://github.com/IntersectAustralia/dc21).
 
 ### About HIEv / DIVER
