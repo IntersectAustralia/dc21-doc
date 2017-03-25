@@ -10,9 +10,10 @@ HIEv / DIVER  is a Ruby on Rails application for the management of environmental
 If you are contemplating an automated data capture project, or would just like more information about HIE / DIVER,
 please email enquiries@intersect.org.au.
 
-# ### Launching a trial instance of HIEv/ DIVER on the NeCTAR Research Cloud (Currently unavalable)
+<!--- ### Launching a trial instance of HIEv/ DIVER on the NeCTAR Research Cloud (Currently unavalable)
 # [Here](http://www.intersect.org.au/content/launchpod) is a description of how to launch a trial instance of HIEv / DIVER on the
 # NeCTAR research cloud using Intersect's Launchpod. Note that launchpod and trial instances of HIEv / DIVER are unsupported.
+--->
 
 ### Support Information
 If you need support for your HIEv / DIVER instance, please email help@intersect.org.au.
