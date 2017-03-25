@@ -1,8 +1,6 @@
 # Product Overview
 
-The DIVER app supports the Cell to Ecosystem-focused Climate Change and Energy Research Facilities (CCERF) at the UWS Hawkesbury campus.
-
-The software provides a means for capture and long term storage of data and meta-data from various instruments. The software is not specific to any instruments, but does do special processing on TOA5 files from Campbell Scientific Loggers. It is designed to provide rich functionality around time-series data, as well as the ability to store and organise other types of files.
+The HIEv / DIVER software provides a means for capture and long term storage of data and meta-data from various instruments. The software is not specific to any instruments, but does do special processing on TOA5 files from Campbell Scientific Loggers. It is designed to provide rich functionality around time-series data, as well as the ability to store and organise other types of files.
 
 Initially, the software was developed to manage data from the following three sites:
 - Eddy Flux Tower – which collects meteorological and flux data from within an isolated forest environment.
