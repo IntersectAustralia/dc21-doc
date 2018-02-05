@@ -21,6 +21,7 @@ You have a _server_ machine ready that:
 * has selinux disabled, unless you are willing to add all the policy allow rules for the application.
 * its firewall and iptables should allow incoming tcp traffic to ssh (22), http (80) and https (443).
 * it can install packages through yum
+* ensure the vm allows password authentication
 
 If you intend to use [AAF Rapid Connect](https://rapid.aaf.edu.au/registration), we recommend registering your service provider first.
 
